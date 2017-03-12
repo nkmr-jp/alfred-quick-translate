@@ -59,7 +59,7 @@
 				<key>modifiers</key>
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Googleで検索</string>
+				<string>翻訳して検索</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1333,7 +1333,7 @@ echo -n $trans</string>
 		<string>~/translate_log.yml</string>
 	</dict>
 	<key>version</key>
-	<string></string>
+	<string>1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
