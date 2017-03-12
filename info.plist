@@ -436,7 +436,7 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>できること: 翻訳してテキストを貼り付け / 翻訳して検索 / 翻訳履歴のログ保存 / テキストを選択して翻訳</string>
+	<string>できること: 翻訳してテキストを貼り付け / 翻訳して検索 / テキストを選択して翻訳 / 翻訳履歴のログ保存とクリップボードへのコピー</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
