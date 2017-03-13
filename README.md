@@ -1,8 +1,7 @@
 # 概要
-- Alfred 3 対応のGoogle翻訳ワークフローです。
-- 今のところ日↔英のみ対応しています。 
-- [Alfred 3](https://www.alfredapp.com/) Powerpack が必要です。
+- [Alfred 3](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
+- 今のところ日↔英のみ対応しています。 
 
 # 機能
 翻訳してテキストを貼り付け
@@ -50,7 +49,7 @@ make
 
 # Hotkeyの設定
 AlfredのPreferencesのWorkflowsからQuick Translateを開くとこのように各機能のHotkeyが設定できます。<br>
-初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。
+初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。<br>
 以下の画像の設定だと。
 
 - `alt + s` : 日本語 → 英語 の翻訳ランチャーが起動
