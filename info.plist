@@ -1122,7 +1122,7 @@ echo -n $trans</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Alfred3対応のGoogle翻訳ワークフローです。ランチャーからサクッと翻訳できます。今のところ日↔英のみ対応しています。 できること: 翻訳してテキストを貼り付け / 翻訳して検索 / テキストを選択して翻訳 / 翻訳履歴のログ保存とクリップボードへのコピー</string>
 	<key>uidata</key>
 	<dict>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>

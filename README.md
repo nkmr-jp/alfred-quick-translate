@@ -1,9 +1,9 @@
-# 概要
+# Quick Translate
 - [Alfred 3](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
 - 今のところ日↔英のみ対応しています。 
 
-# 機能
+## 機能
 翻訳してテキストを貼り付け
 
 <img src="./screenshot/1.gif" width="700">
@@ -28,7 +28,7 @@ Alfredのクリップボード機能を使うと履歴を検索できるので�
 どの機能を使っても、翻訳前、翻訳後のテキストは<br>
 ログファイルとクリップボードの両方に自動で保存されます。
     
-# インストール
+## インストール
 
 1:  [Alfred 3](https://www.alfredapp.com/) Powerpack を購入してインストール。
 
@@ -47,7 +47,7 @@ make
 
 <img src="./screenshot/2017-03-1311.52.08.png" width="400">
 
-# Hotkeyの設定
+## Hotkeyの設定
 AlfredのPreferencesのWorkflowsからQuick Translateを開くとこのように各機能のHotkeyが設定できます。<br>
 初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。<br>
 以下の画像の設定だと。
@@ -62,8 +62,8 @@ AlfredのPreferencesのWorkflowsからQuick Translateを開くとこのように
 <img src="./screenshot/2017-03-1310.44.54.png" width="500">
 
 
-# 使い方
-## サクッと翻訳したい
+## 使い方
+### サクッと翻訳したい
 Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動します。<br>
 文字を入力するとリアルタイムで翻訳されます。<br>
 `Enter` を押すと、翻訳結果をエディタなどに貼り付けられます。
@@ -71,7 +71,7 @@ Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動しま�
 <img src="./screenshot/1.gif" width="700">
 
 
-## 翻訳してGoogleで検索したい
+### 翻訳してGoogleで検索したい
 Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動します。<br>
 翻訳ランチャーでテキストを入力後<br>
 `ctrl + Enter` で翻訳後のテキストでググれます。
@@ -79,7 +79,7 @@ Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動しま�
 <img src="./screenshot/2.gif" width="700">
 
 
-## テキストを選択して翻訳したい
+### テキストを選択して翻訳したい
 
 翻訳したいテキストを選択して、Hotkeyに割り当てたキーを入力します。
 
