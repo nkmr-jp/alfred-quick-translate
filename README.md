@@ -1,4 +1,4 @@
-# Quick Translate
+# Alfred Quick Translate
 - [Alfred 3](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
 - 今のところ日↔英のみ対応しています。 
