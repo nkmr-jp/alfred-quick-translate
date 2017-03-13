@@ -14,11 +14,11 @@
 
 翻訳したログの自動保存
 
-<img src="./screenshot/2017-03-1312.59.17.png" width="500">
+<img src="./screenshot/2017-03-1313.35.09.png" width="500">
 
 クリップボードにも自動で保存
 
-<img src="./screenshot/2017-03-1313.05.44.png" width="500">
+<img src="./screenshot/2017-03-1313.38.05.png" width="500">
 
 
 
@@ -96,9 +96,9 @@ Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動しま�
 
 翻訳したログは `~/translate_log.yml` に保存されます。
 
-<img src="./screenshot/2017-03-1312.59.17.png" width="500">
+<img src="./screenshot/2017-03-1313.35.09.png" width="500">
 
 クリップボードはAlfredのクリップボード機能を使うと履歴を検索できるので便利です。
 
-<img src="./screenshot/2017-03-1313.05.44.png" width="500">
+<img src="./screenshot/2017-03-1313.38.05.png" width="500">
 
