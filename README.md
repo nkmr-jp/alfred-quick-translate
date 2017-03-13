@@ -15,12 +15,12 @@
 
 2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
 
-    ```shell
-    git clone https://github.com/soimort/translate-shell
-    cd translate-shell/
-    make    
-    [sudo] make install
-    ```
+```shell
+git clone https://github.com/soimort/translate-shell
+cd translate-shell/
+make    
+[sudo] make install
+```
 3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
 
 4: ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
