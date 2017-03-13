@@ -1,13 +1,31 @@
+# 機能
+翻訳してテキストを貼り付け
+
+<img src="./screenshot/1.gif" width="700">
+
+翻訳して検索
+
+<img src="./screenshot/2.gif" width="700">
+
+テキストを選択して翻訳
+
+<img src="./screenshot/3.gif" width="700">
+
+翻訳したログの自動保存
+
+<img src="./screenshot/2017-03-1312.59.17.png" width="500">
+
+クリップボードにも自動で保存
+
+<img src="./screenshot/2017-03-1313.05.44.png" width="500">
+
+
+
 # 概要
 - Alfred 3 対応のGoogle翻訳ワークフローです。
 - 今のところ日↔英のみ対応しています。 
 - [Alfred 3](https://www.alfredapp.com/) Powerpack が必要です。
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
-- 機能
-    - 翻訳してテキストを貼り付け
-    - 翻訳して検索 
-    - テキストを選択して翻訳 
-    - 翻訳履歴のログ保存とクリップボードへのコピー
     
 # インストール
 
@@ -47,7 +65,7 @@ AlfredのPreferencesのWorkflowsからQuick Translateを開くとこのように
 ## サクッと翻訳したい
 Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動します。<br>
 文字を入力するとリアルタイムで翻訳されます。<br>
-エンターキーを押すと、翻訳結果をエディタなどに貼り付けられます。
+`Enter` を押すと、翻訳結果をエディタなどに貼り付けられます。
 
 <img src="./screenshot/1.gif" width="700">
 
@@ -62,7 +80,7 @@ Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動しま�
 
 ## テキストを選択して翻訳したい
 
-翻訳したいテキストを選択して、Hotkeyを入力します。
+翻訳したいテキストを選択して、Hotkeyに割り当てたキーを入力します。
 
 <img src="./screenshot/3.gif" width="700">
 
