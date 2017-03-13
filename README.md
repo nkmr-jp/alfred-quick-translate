@@ -11,24 +11,24 @@
     
 # インストール
 
-1. [Alfred 3](https://www.alfredapp.com/) Powerpack を購入してインストール。
-2. [translate-shell](https://github.com/soimort/translate-shell) をインストール。
-```shell
-git clone https://github.com/soimort/translate-shell
-cd translate-shell/
-make    
-[sudo] make install
-```
-3. [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
-4. ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
+1:  [Alfred 3](https://www.alfredapp.com/) Powerpack を購入してインストール。
+
+2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
+
+    ```shell
+    git clone https://github.com/soimort/translate-shell
+    cd translate-shell/
+    make    
+    [sudo] make install
+    ```
+3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
+
+4: ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
 
 # Hotkeyの設定
 AlfredのPreferencesのWorkflowからQuick Translateを開くとこのように各機能のHotkeyが設定できます。<br>
 初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。
-
-<img src="./screenshot/2017-03-1310.44.54.png" width="500">
-
-この画像の設定だと。
+以下の画像の設定だと。
 
 - `alt + s` : 日本語 → 英語 の翻訳ランチャーが起動
 - `alt + cmd + s` : 英語 → 日本語 の翻訳ランチャーが起動
@@ -36,6 +36,9 @@ AlfredのPreferencesのWorkflowからQuick Translateを開くとこのように�
 - `alt + z` : 選択した英語のテキストを日本語に変換する。
 
 となります。
+
+<img src="./screenshot/2017-03-1310.44.54.png" width="500">
+
 
 # 使い方
 ## サクッと翻訳したい
