@@ -2,6 +2,7 @@
 - [Alfred 3](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
 - 今のところ日↔英のみ対応しています。 
+- iconは[iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128)で探しました。
 
 ## 機能
 翻訳してテキストを貼り付け
