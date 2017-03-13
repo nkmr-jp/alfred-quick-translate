@@ -1,3 +1,9 @@
+# 概要
+- Alfred 3 対応のGoogle翻訳ワークフローです。
+- 今のところ日↔英のみ対応しています。 
+- [Alfred 3](https://www.alfredapp.com/) Powerpack が必要です。
+- [translate-shell](https://github.com/soimort/translate-shell) を使っています。
+
 # 機能
 翻訳してテキストを貼り付け
 
@@ -19,14 +25,6 @@
 クリップボードにも自動で保存
 
 <img src="./screenshot/2017-03-1313.38.05.png" width="500">
-
-
-
-# 概要
-- Alfred 3 対応のGoogle翻訳ワークフローです。
-- 今のところ日↔英のみ対応しています。 
-- [Alfred 3](https://www.alfredapp.com/) Powerpack が必要です。
-- [translate-shell](https://github.com/soimort/translate-shell) を使っています。
     
 # インストール
 
