@@ -1,7 +1,7 @@
 # Alfred Quick Translate
 - [Alfred 3](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
-- 今のところ日↔英のみ対応しています。 
+- 今のところ日↔英のみ対応しています。
 - iconは[iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128)で探しました。
 
 ## 機能
@@ -28,18 +28,15 @@ Alfredのクリップボード機能を使うと履歴を検索できるので�
 
 どの機能を使っても、翻訳前、翻訳後のテキストは<br>
 ログファイルとクリップボードの両方に自動で保存されます。
-    
+
 ## インストール
 
-1:  [Alfred 3](https://www.alfredapp.com/) Powerpack を購入してインストール。
+1:  [Alfred 3](https://www.alfredapp.com/) をインストールし、Powerpackを購入してライセンス認証。
 
 2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
 
 ```shell
-git clone https://github.com/soimort/translate-shell
-cd translate-shell/
-make    
-[sudo] make install
+brew install translate-shell
 ```
 
 3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
