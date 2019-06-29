@@ -31,7 +31,7 @@ Alfredのクリップボード機能を使うと履歴を検索できるので�
 
 ## インストール
 
-1:  [Alfred 3](https://www.alfredapp.com/) をインストールし、Powerpackを購入してライセンス認証。
+1:  [Alfred](https://www.alfredapp.com/) をインストールし、Powerpackを購入してライセンス認証。
 
 2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
 
