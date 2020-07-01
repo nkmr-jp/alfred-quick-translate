@@ -28,26 +28,28 @@ set_trans() {
         -d "text=$input" \
         -d "target_lang=$to_upper" \
         -d "preserve_formatting=1" \
-        -d "source_lang=$from_upper" \
+        -d "source_lang=$from_upper"
     )
     trans=$(echo "$trans" | jq -r .translations[0].text | sed 's/- /'"$lf- "'/g')
   else
-    echo -n "'$engine' is unsupported engine" |
+    echo -n "'$engine' is unsupported engine"
     exit
   fi
 }
 
-run_script() {
+run() {
+  set_trans
   echo -n "$trans" | sed 's/。/'"。$lf"'/g'
 }
 
-script_filter() {
+filter() {
+  set_trans
   cat <<EOB
 {
 	"variables": {
 		"input": "$input",
 		"output": "$trans",
-		"prefix": "ja2en"
+		"lang": "$lang"
   	},
 	"items": [
 		{
@@ -61,8 +63,8 @@ script_filter() {
 EOB
 }
 
-set_trans
-run_script
-#
-#if [ $prefix ] then:
-#run
+if [[ "$script_type" == "run" ]]; then
+  run
+else
+  filter
+fi

@@ -109,7 +109,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
+				<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -135,7 +135,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1B5E2D56-7237-4203-9373-8DE982B0E0D1</string>
+				<string>456E3E52-A995-4BAB-9F38-07CCE0C82D67</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -149,6 +149,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B5E2D56-7237-4203-9373-8DE982B0E0D1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -188,6 +201,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -534,15 +560,15 @@ cat &lt;&lt; EOB
 }
 EOB</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>run_script.sh</string>
 				<key>subtext</key>
 				<string>{var:native_lang} → {var:translate_lang} (engine: {var:engine})</string>
 				<key>title</key>
 				<string>Quick Translate</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -552,6 +578,28 @@ EOB</string>
 			<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+					<key>lang</key>
+					<string>{var:native_lang}2{var:translate_lang}</string>
+					<key>script_type</key>
+					<string>filter</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -630,7 +678,7 @@ EOB</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>翻訳中...</string>
+				<string>Tlanslating...</string>
 				<key>script</key>
 				<string>PATH=$PATH:/usr/local/bin
 TRANS=`trans :ja -b "{query}"`
@@ -653,15 +701,15 @@ cat &lt;&lt; EOB
 }
 EOB</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>run_script.sh</string>
 				<key>subtext</key>
 				<string>{var:translate_lang} → {var:native_lang} (engine: {var:engine})</string>
 				<key>title</key>
 				<string>Quick Translate</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -701,9 +749,11 @@ EOB</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>14</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>E</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -717,6 +767,28 @@ EOB</string>
 			<string>3529227E-21E4-41D1-8E3E-AB6455398B8B</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+					<key>lang</key>
+					<string>{var:translate_lang}2{var:native_lang}</string>
+					<key>script_type</key>
+					<string>filter</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>456E3E52-A995-4BAB-9F38-07CCE0C82D67</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -802,6 +874,8 @@ echo -n $trans</string>
 					<string>{query}</string>
 					<key>lang</key>
 					<string>{var:native_lang}2{var:translate_lang}</string>
+					<key>script_type</key>
+					<string>run</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -1146,6 +1220,8 @@ echo -n $trans</string>
 					<string>{query}</string>
 					<key>lang</key>
 					<string>{var:translate_lang}2{var:native_lang}</string>
+					<key>script_type</key>
+					<string>run</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -1181,14 +1257,14 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>300</integer>
 			<key>ypos</key>
 			<integer>440</integer>
 		</dict>
 		<key>1F011D4E-0137-4930-AEB4-155AC561026D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>300</integer>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
@@ -1227,6 +1303,13 @@ https://www.deepl.com/docs-api/translating-text/</string>
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
+		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
 		<key>4C1C7BB7-59A2-438B-8AE5-05914FA7E8FD</key>
 		<dict>
 			<key>xpos</key>
@@ -1254,6 +1337,13 @@ https://www.deepl.com/docs-api/translating-text/</string>
 			<integer>1880</integer>
 			<key>ypos</key>
 			<integer>710</integer>
+		</dict>
+		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>80</integer>
 		</dict>
 		<key>7D5833E3-EF9A-4562-A5E6-4FDA3324BE70</key>
 		<dict>
@@ -1402,7 +1492,7 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<string>deepl_api_key</string>
 	</array>
 	<key>version</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
