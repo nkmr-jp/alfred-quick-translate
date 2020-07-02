@@ -92,6 +92,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>22C5CD97-ADE8-453E-B0A4-F00654CDD445</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<array>
 			<dict>
@@ -174,7 +187,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</string>
+				<string>4E2AFFB0-7D6C-40EB-8DEF-7407A29799B6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4E2AFFB0-7D6C-40EB-8DEF-7407A29799B6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3D7B048-ED8E-4765-B24B-855DCC538A12</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -227,6 +253,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C4DAEFAA-EE11-4EB4-BC76-A5DA0CE124E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -313,11 +352,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>B896E81C-E992-41BA-8BDB-79A600BBEB74</key>
+		<key>B3D7B048-ED8E-4765-B24B-855DCC538A12</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</string>
+				<string>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -365,19 +404,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C598FDC2-8966-408E-A8B5-1D60E1DD493E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B896E81C-E992-41BA-8BDB-79A600BBEB74</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>D0B93F43-680A-41D8-AF9A-B5BFE7C563A4</key>
 		<array>
 			<dict>
@@ -395,7 +421,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C598FDC2-8966-408E-A8B5-1D60E1DD493E</string>
+				<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -409,6 +435,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>808FF62C-FBD1-4D96-92F4-9D660A899A51</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22C5CD97-ADE8-453E-B0A4-F00654CDD445</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -447,6 +486,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>FB0E44FF-4377-4045-A778-B5EF73EABA0C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FB0E44FF-4377-4045-A778-B5EF73EABA0C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>3246C05F-EAD0-4C1A-A58F-880C7672A28D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -467,37 +519,6 @@
 	<string>Quick Translate</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>1</integer>
-				<key>hotmod</key>
-				<integer>1572864</integer>
-				<key>hotstring</key>
-				<string>S</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>2F9CA794-B73D-4681-91F7-C085DB042D1D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -562,7 +583,7 @@ EOB</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>run_script.sh</string>
+				<string>script.sh</string>
 				<key>subtext</key>
 				<string>{var:native_lang} → {var:translate_lang} (engine: {var:engine})</string>
 				<key>title</key>
@@ -578,6 +599,37 @@ EOB</string>
 			<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>1</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>S</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>2F9CA794-B73D-4681-91F7-C085DB042D1D</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -600,23 +652,6 @@ EOB</string>
 			<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:output}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -653,6 +688,54 @@ EOB</string>
 			<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:output}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>14</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>E</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>3529227E-21E4-41D1-8E3E-AB6455398B8B</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -703,7 +786,7 @@ EOB</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>run_script.sh</string>
+				<string>script.sh</string>
 				<key>subtext</key>
 				<string>{var:translate_lang} → {var:native_lang} (engine: {var:engine})</string>
 				<key>title</key>
@@ -740,31 +823,53 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
+				<key>adduuid</key>
 				<false/>
-				<key>focusedappvariablename</key>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:log_file}</string>
+				<key>filetext</key>
+				<string>{var:key}:
+  engine: "{var:engine}"
+  in: "{var:input}"
+  out: "{var:output}"</string>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>PATH=$PATH:/usr/local/bin
+DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
+echo -n ${DATETIME}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>hotkey</key>
-				<integer>14</integer>
-				<key>hotmod</key>
-				<integer>1572864</integer>
-				<key>hotstring</key>
-				<string>E</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
+				<key>type</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3529227E-21E4-41D1-8E3E-AB6455398B8B</string>
+			<string>97671326-8FC7-4638-9AD8-37EE1F5B35FC</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -793,6 +898,47 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{var:lang}_{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:input}
+{var:output}</string>
+				<key>variables</key>
+				<dict>
+					<key></key>
+					<string></string>
+					<key>input</key>
+					<string>{var:input}</string>
+					<key>output</key>
+					<string>{var:output}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>808FF62C-FBD1-4D96-92F4-9D660A899A51</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -804,7 +950,7 @@ echo -n $trans</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>run_script.sh</string>
+				<string>script.sh</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -814,23 +960,6 @@ echo -n $trans</string>
 			<string>D0B93F43-680A-41D8-AF9A-B5BFE7C563A4</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>C1385894-C296-493C-847B-2E706A3AAB2D</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -866,6 +995,40 @@ echo -n $trans</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C1385894-C296-493C-847B-2E706A3AAB2D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>"</string>
+				<key>replacestring</key>
+				<string>'</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>22C5CD97-ADE8-453E-B0A4-F00654CDD445</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>variables</key>
@@ -889,6 +1052,23 @@ echo -n $trans</string>
 			<key>config</key>
 			<dict>
 				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>;</string>
+				<key>replacestring</key>
+				<string>.</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
 				<integer>1</integer>
 				<key>matchstring</key>
 				<string>\t</string>
@@ -902,26 +1082,34 @@ echo -n $trans</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>C598FDC2-8966-408E-A8B5-1D60E1DD493E</string>
+			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>"</string>
-				<key>replacestring</key>
-				<string>'</string>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>clipboardtextrtf</key>
+				<string>{\rtf1\ansi\ansicpg932\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c84706\cname controlTextColor;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 \{query\}}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>B896E81C-E992-41BA-8BDB-79A600BBEB74</string>
+			<string>4C1C7BB7-59A2-438B-8AE5-05914FA7E8FD</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -931,9 +1119,8 @@ echo -n $trans</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
-DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
-echo -n ${DATETIME}</string>
+				<string>lf=$'\\\x0A'
+echo -n "$input" | sed 's/\. /'". $lf"'/g'</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -944,7 +1131,7 @@ echo -n ${DATETIME}</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>97671326-8FC7-4638-9AD8-37EE1F5B35FC</string>
+			<string>4E2AFFB0-7D6C-40EB-8DEF-7407A29799B6</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -980,68 +1167,20 @@ echo -n ${DATETIME}</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>4C1C7BB7-59A2-438B-8AE5-05914FA7E8FD</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<true/>
-				<key>filename</key>
-				<string>{var:log_file}</string>
-				<key>filetext</key>
-				<string>{var:key}:
-  engine: "{var:engine}"
-  in: "{var:input}"
-  out: "{var:output}"</string>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
-				<string>{var:input}
-{var:output}</string>
+				<string>{query}</string>
 				<key>variables</key>
 				<dict>
 					<key></key>
 					<string></string>
 					<key>input</key>
-					<string>{var:input}</string>
-					<key>output</key>
-					<string>{var:output}</string>
+					<string>{query}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>808FF62C-FBD1-4D96-92F4-9D660A899A51</string>
+			<string>B3D7B048-ED8E-4765-B24B-855DCC538A12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1066,24 +1205,6 @@ echo -n ${DATETIME}</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>key</key>
-					<string>{var:lang}_{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -1097,6 +1218,48 @@ echo -n ${DATETIME}</string>
 			<string>7D5833E3-EF9A-4562-A5E6-4FDA3324BE70</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>PATH=$PATH:/usr/local/bin
+trans=`trans :ja -b "{query}"`
+echo -n $trans</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>script.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A788A69B-39BF-44EA-BB2E-C37D184B0665</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A17EDA8D-348A-4BA0-8C11-CDA52CA54643</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1132,48 +1295,6 @@ echo -n ${DATETIME}</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
-trans=`trans :ja -b "{query}"`
-echo -n $trans</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>run_script.sh</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>A788A69B-39BF-44EA-BB2E-C37D184B0665</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>A17EDA8D-348A-4BA0-8C11-CDA52CA54643</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>matchmode</key>
 				<integer>1</integer>
 				<key>matchstring</key>
@@ -1189,23 +1310,6 @@ echo -n $trans</string>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>F7CD77E2-BEE3-4A15-A369-6ED8E227D6E8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>"</string>
-				<key>replacestring</key>
-				<string>'</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>F81C303F-8554-4882-BBA7-1ABC692D5CDE</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1230,6 +1334,40 @@ echo -n $trans</string>
 			<string>3246C05F-EAD0-4C1A-A58F-880C7672A28D</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>;</string>
+				<key>replacestring</key>
+				<string>.</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>FB0E44FF-4377-4045-A778-B5EF73EABA0C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>"</string>
+				<key>replacestring</key>
+				<string>'</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>F81C303F-8554-4882-BBA7-1ABC692D5CDE</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -1268,6 +1406,13 @@ https://www.deepl.com/docs-api/translating-text/</string>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>22C5CD97-ADE8-453E-B0A4-F00654CDD445</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>660</integer>
+		</dict>
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
 			<key>xpos</key>
@@ -1285,7 +1430,7 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>3246C05F-EAD0-4C1A-A58F-880C7672A28D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>465</integer>
 			<key>ypos</key>
 			<integer>810</integer>
 		</dict>
@@ -1313,9 +1458,18 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>4C1C7BB7-59A2-438B-8AE5-05914FA7E8FD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1175</integer>
+			<integer>1075</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>705</integer>
+		</dict>
+		<key>4E2AFFB0-7D6C-40EB-8DEF-7407A29799B6</key>
+		<dict>
+			<key>note</key>
+			<string>DateTime</string>
+			<key>xpos</key>
+			<integer>1240</integer>
+			<key>ypos</key>
+			<integer>705</integer>
 		</dict>
 		<key>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</key>
 		<dict>
@@ -1334,9 +1488,9 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>66DF7C80-DC96-4716-965B-FD3631B87BE6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1880</integer>
+			<integer>2060</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>445</integer>
 		</dict>
 		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
 		<dict>
@@ -1348,37 +1502,44 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>7D5833E3-EF9A-4562-A5E6-4FDA3324BE70</key>
 		<dict>
 			<key>xpos</key>
-			<integer>870</integer>
+			<integer>930</integer>
 			<key>ypos</key>
-			<integer>740</integer>
+			<integer>735</integer>
+		</dict>
+		<key>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>660</integer>
 		</dict>
 		<key>808FF62C-FBD1-4D96-92F4-9D660A899A51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1495</integer>
+			<integer>1705</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>480</integer>
 		</dict>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1595</integer>
+			<integer>1795</integer>
 			<key>ypos</key>
-			<integer>700</integer>
+			<integer>445</integer>
 		</dict>
 		<key>A17EDA8D-348A-4BA0-8C11-CDA52CA54643</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>550</integer>
 			<key>ypos</key>
 			<integer>780</integer>
 		</dict>
 		<key>A788A69B-39BF-44EA-BB2E-C37D184B0665</key>
 		<dict>
 			<key>xpos</key>
-			<integer>680</integer>
+			<integer>735</integer>
 			<key>ypos</key>
 			<integer>780</integer>
 		</dict>
@@ -1392,49 +1553,42 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1790</integer>
+			<integer>1975</integer>
 			<key>ypos</key>
-			<integer>740</integer>
+			<integer>475</integer>
 		</dict>
-		<key>B896E81C-E992-41BA-8BDB-79A600BBEB74</key>
+		<key>B3D7B048-ED8E-4765-B24B-855DCC538A12</key>
 		<dict>
 			<key>xpos</key>
-			<integer>295</integer>
+			<integer>1405</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>735</integer>
 		</dict>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>470</integer>
 			<key>ypos</key>
 			<integer>660</integer>
 		</dict>
 		<key>C1385894-C296-493C-847B-2E706A3AAB2D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>555</integer>
 			<key>ypos</key>
 			<integer>630</integer>
 		</dict>
 		<key>C4DAEFAA-EE11-4EB4-BC76-A5DA0CE124E1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1105</integer>
+			<integer>995</integer>
 			<key>ypos</key>
-			<integer>740</integer>
-		</dict>
-		<key>C598FDC2-8966-408E-A8B5-1D60E1DD493E</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>660</integer>
+			<integer>735</integer>
 		</dict>
 		<key>D0B93F43-680A-41D8-AF9A-B5BFE7C563A4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>725</integer>
 			<key>ypos</key>
 			<integer>630</integer>
 		</dict>
@@ -1448,9 +1602,16 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1320</integer>
+			<integer>1505</integer>
 			<key>ypos</key>
 			<integer>705</integer>
+		</dict>
+		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>660</integer>
 		</dict>
 		<key>F1654F44-D1C8-4127-A065-C3364EE54DF0</key>
 		<dict>
@@ -1469,7 +1630,14 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>F81C303F-8554-4882-BBA7-1ABC692D5CDE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>295</integer>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>FB0E44FF-4377-4045-A778-B5EF73EABA0C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
 			<key>ypos</key>
 			<integer>810</integer>
 		</dict>
