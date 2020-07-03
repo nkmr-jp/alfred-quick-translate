@@ -21,7 +21,7 @@ set_trans() {
   if [[ "${engines[*]}" =~ $engine ]]; then
     trans=$(trans "$from:$to" --engine "$engine" -b "$input")
   elif [[ $engine == "deepl" ]]; then
-    local from_upper to_upper
+    local from_upper to_upper input_deepl
     from_upper=$(echo "$from" | tr '[:lower:]' '[:upper:]')
     to_upper=$(echo "$to" | tr '[:lower:]' '[:upper:]')
 

@@ -200,7 +200,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B3D7B048-ED8E-4765-B24B-855DCC538A12</string>
+				<string>97170B18-81B5-4AFA-8920-9B1C485274F4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -287,11 +287,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>97170B18-81B5-4AFA-8920-9B1C485274F4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -344,19 +370,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B3D7B048-ED8E-4765-B24B-855DCC538A12</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -709,6 +722,59 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:log_file}</string>
+				<key>filetext</key>
+				<string>{var:key}:
+  engine: "{var:engine}"
+  in: "{var:input}"
+  out: "{var:output}"</string>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>PATH=$PATH:/usr/local/bin
+DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
+echo -n ${DATETIME}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>97671326-8FC7-4638-9AD8-37EE1F5B35FC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -823,55 +889,20 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<true/>
-				<key>filename</key>
-				<string>{var:log_file}</string>
-				<key>filetext</key>
-				<string>{var:key}:
-  engine: "{var:engine}"
-  in: "{var:input}"
-  out: "{var:output}"</string>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>2</integer>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{var:lang}_{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
+			<string>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<true/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
-DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
-echo -n ${DATETIME}</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>97671326-8FC7-4638-9AD8-37EE1F5B35FC</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -892,24 +923,6 @@ echo -n ${DATETIME}</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>456E3E52-A995-4BAB-9F38-07CCE0C82D67</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>key</key>
-					<string>{var:lang}_{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1138,6 +1151,38 @@ echo -n "$input" | sed 's/\. /'". $lf"'/g'</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [[ "$view" == "output_only" ]]; then
+	echo -n "$output"
+else
+	echo "-- INPUT --"
+	echo -n "$input"
+	echo ""
+	echo ""
+	echo "-- OUTPUT --"
+	echo -n "$output"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alignment</key>
 				<integer>0</integer>
 				<key>backgroundcolor</key>
@@ -1149,11 +1194,7 @@ echo -n "$input" | sed 's/\. /'". $lf"'/g'</string>
 				<key>font</key>
 				<string></string>
 				<key>largetypetext</key>
-				<string>---INPUT---
-{var:input}
-
----OUTPUT---
-{var:output}</string>
+				<string>{query}</string>
 				<key>textcolor</key>
 				<string></string>
 			</dict>
@@ -1171,8 +1212,6 @@ echo -n "$input" | sed 's/\. /'". $lf"'/g'</string>
 				<string>{query}</string>
 				<key>variables</key>
 				<dict>
-					<key></key>
-					<string></string>
 					<key>input</key>
 					<string>{query}</string>
 				</dict>
@@ -1180,7 +1219,7 @@ echo -n "$input" | sed 's/\. /'". $lf"'/g'</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>B3D7B048-ED8E-4765-B24B-855DCC538A12</string>
+			<string>97170B18-81B5-4AFA-8920-9B1C485274F4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1371,25 +1410,27 @@ echo -n $trans</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>deepl_api_key
+	<string>Workflow Enviromnet Variables:
+	deepl_api_key:	null(default)
+	engine:			google(default,recomend), deepl(recomend)
+					aspell, bing, spell, hunspell, apertium, 					yandex,
+	log_file:		~/translate2_log.yml(default)
+	native_lang:		ja(default)
+	translate_lang:	en(default)
+	view:			input_output(default), output_only
 
-log_file
+Langage codes:
+	Please refer to the following sites for language codes.
 
-engine:
-you can use 
-'aspell' 'google' 'bing' 'spell' 'hunspell' 'apertium' 'yandex'
-and
-'deepl'
+	DeepL:
+	https://www.deepl.com/docs-api/translating-text/
 
-if you want to use deepl you have to regist DeepL Pro API.
-https://www.deepl.com/pro#developer
+	Other Engines:
+	https://github.com/soimort/translate-shell/wiki/Languages
 
-
-native_lang:
-translate_lang:
-
-DeepL Langage codes
-https://www.deepl.com/docs-api/translating-text/</string>
+Note:
+	if you want to use deepl you have to regist DeepL Pro API.
+	https://www.deepl.com/pro#developer</string>
 	<key>uidata</key>
 	<dict>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
@@ -1467,30 +1508,30 @@ https://www.deepl.com/docs-api/translating-text/</string>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1240</integer>
+			<integer>1225</integer>
 			<key>ypos</key>
 			<integer>705</integer>
 		</dict>
 		<key>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<integer>725</integer>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
 		<key>5E392158-C45A-4CB2-AA55-ACFAF900A8D7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<integer>725</integer>
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
 		<key>66DF7C80-DC96-4716-965B-FD3631B87BE6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2060</integer>
+			<integer>2180</integer>
 			<key>ypos</key>
-			<integer>445</integer>
+			<integer>435</integer>
 		</dict>
 		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
 		<dict>
@@ -1516,18 +1557,34 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>808FF62C-FBD1-4D96-92F4-9D660A899A51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1705</integer>
+			<integer>1800</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>545</integer>
+		</dict>
+		<key>97170B18-81B5-4AFA-8920-9B1C485274F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1375</integer>
+			<key>ypos</key>
+			<integer>735</integer>
 		</dict>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1795</integer>
+			<integer>1915</integer>
 			<key>ypos</key>
-			<integer>445</integer>
+			<integer>435</integer>
+		</dict>
+		<key>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</key>
+		<dict>
+			<key>note</key>
+			<string>DateTime</string>
+			<key>xpos</key>
+			<integer>1450</integer>
+			<key>ypos</key>
+			<integer>705</integer>
 		</dict>
 		<key>A17EDA8D-348A-4BA0-8C11-CDA52CA54643</key>
 		<dict>
@@ -1553,16 +1610,9 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1975</integer>
+			<integer>2095</integer>
 			<key>ypos</key>
-			<integer>475</integer>
-		</dict>
-		<key>B3D7B048-ED8E-4765-B24B-855DCC538A12</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1405</integer>
-			<key>ypos</key>
-			<integer>735</integer>
+			<integer>465</integer>
 		</dict>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<dict>
@@ -1574,7 +1624,7 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>C1385894-C296-493C-847B-2E706A3AAB2D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>555</integer>
+			<integer>550</integer>
 			<key>ypos</key>
 			<integer>630</integer>
 		</dict>
@@ -1602,7 +1652,7 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1505</integer>
+			<integer>1605</integer>
 			<key>ypos</key>
 			<integer>705</integer>
 		</dict>
@@ -1616,7 +1666,7 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<key>F1654F44-D1C8-4127-A065-C3364EE54DF0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<integer>725</integer>
 			<key>ypos</key>
 			<integer>440</integer>
 		</dict>
@@ -1654,6 +1704,8 @@ https://www.deepl.com/docs-api/translating-text/</string>
 		<string>ja</string>
 		<key>translate_lang</key>
 		<string>en</string>
+		<key>view</key>
+		<string>input_output</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
