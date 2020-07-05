@@ -39,7 +39,7 @@ Alfredのクリップボード機能を使うと履歴を検索できるので�
 brew install translate-shell
 ```
 
-3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
+3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/v1.0.0/quick-translate.alfredworkflow) をダウンロード
 
 4: ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
 
