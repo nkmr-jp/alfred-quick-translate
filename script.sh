@@ -72,7 +72,7 @@ set_trans() {
 
 run() {
   set_trans
-  echo -n "$trans"
+  echo -n "$trans" | fold -w 80
 }
 
 filter() {
