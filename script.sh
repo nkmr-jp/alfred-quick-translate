@@ -25,8 +25,12 @@ set_trans() {
     from_upper=$(echo "$from" | tr '[:lower:]' '[:upper:]')
     to_upper=$(echo "$to" | tr '[:lower:]' '[:upper:]')
 
+    # Split input to multiple sentences.
+    # Because DeepL API cannot translate overly long sentences.
     input_deepl=$(echo "$input" | tr '\n' ';')
-    input_deepl=$(echo "$input_deepl" | sed 's/;;/;/g')
+    input_deepl=$(echo "$input_deepl" | sed 's/\. /. ;/g')
+    input_deepl=$(echo "$input_deepl" | sed 's/\。/。;/g')
+
     IFS=';'
     set -- $input_deepl
 
@@ -58,7 +62,7 @@ set_trans() {
     )
     trans=$(echo "$trans" | jq -r .translations[].text)
     if [ -n "${21}" ]; then
-      trans="$trans $lf ..."
+      trans="$trans $lf ...too large volumes of text."
     fi
   else
     echo -n "'$engine' is unsupported engine"
@@ -68,7 +72,7 @@ set_trans() {
 
 run() {
   set_trans
-  echo -n "$trans" | sed 's/。/'"。$lf"'/g'
+  echo -n "$trans"
 }
 
 filter() {
