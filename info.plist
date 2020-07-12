@@ -16,7 +16,7 @@
 				<key>modifiersubtext</key>
 				<string>Copy to clipboard</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -470,7 +470,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>nkmr-jp</string>
 	<key>description</key>
 	<string>You can: translate and paste text / translate and search / select and translate text / translation history Logging and copying to the clipboard; できること: 翻訳してテキストを貼り付け / 翻訳して検索 / テキストを選択して翻訳 / 翻訳履歴のログ保存とクリップボードへのコピー</string>
 	<key>disabled</key>
@@ -1085,10 +1085,10 @@ echo -n "$input"</string>
 				<string>view_input=$input
 view_output=$output
 
-if [[ $input == "*。*" ]]; then
+if [[ $input == "*。*" ]]; then 
 	view_input=$(echo -n "$input" | fold -w 80)
 fi
-if [[ $output == "*。*" ]]; then
+if [[ $output == "*。*" ]]; then 
 	view_output=$(echo -n "$output" | fold -w 80)
 fi
 
@@ -1348,7 +1348,7 @@ fi</string>
 	<string>Workflow Enviromnet Variables:
 	deepl_api_key:	null(default)
 	engine:			google(default,recomend), deepl(recomend)
-					aspell, bing, spell, hunspell, apertium, 					yandex,
+					aspell, bing, spell, hunspell, apertium, 					yandex, 
 	log_file:		~/translate2_log.yml(default)
 	native_lang:		ja(default)
 	translate_lang:	en(default)
@@ -1356,10 +1356,10 @@ fi</string>
 
 Langage codes:
 	Please refer to the following sites for language codes.
-
+	
 	DeepL:
 	https://www.deepl.com/docs-api/translating-text/
-
+	
 	Other Engines:
 	https://github.com/soimort/translate-shell/wiki/Languages
 
@@ -1399,7 +1399,7 @@ Note:
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
 			<key>note</key>
-			<string>Translate Selected Text
+			<string>Translate Selected Text 
 
 From Native Language</string>
 			<key>xpos</key>
@@ -1411,7 +1411,7 @@ From Native Language</string>
 		<dict>
 			<key>note</key>
 			<string>Translat in Launcher
-
+ 
 From Native Language</string>
 			<key>xpos</key>
 			<integer>50</integer>
@@ -1658,8 +1658,8 @@ To Native Language</string>
 		<string>deepl_api_key</string>
 	</array>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/nkmr-jp/alfred-quick-translate</string>
 </dict>
 </plist>
