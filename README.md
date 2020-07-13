@@ -1,87 +1,114 @@
-# Alfred Quick Translate
-- [Alfred 4](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
-- [translate-shell](https://github.com/soimort/translate-shell) を使っています。
-- 今のところ日↔英のみ対応しています。
-- iconは[iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128)で探しました。
+[EN](README.md) | [JA](README_JA.md)
 
-## 機能
-翻訳してテキストを貼り付け
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Alfred Quick Translate](#alfred-quick-translate)
+  - [Features](#features)
+  - [Install](#install)
+  - [Language and translation engine settings](#language-and-translation-engine-settings)
+    - [When using DeepL](#when-using-deepl)
+  - [Hotkey settings.](#hotkey-settings)
+  - [Usage](#usage)
+    - [When you want a quick translation](#when-you-want-a-quick-translation)
+    - [When you want to translate and search on Google](#when-you-want-to-translate-and-search-on-google)
+    - [When you want to select and translate text](#when-you-want-to-select-and-translate-text)
+
+<!-- /code_chunk_output -->
+
+
+# Alfred Quick Translate
+- Translations for [Alfred 4](https://www.alfredapp.com/) Workflow. (*Powerpack is required.)
+- [translate-shell](https://github.com/soimort/translate-shell).
+- Icon is [iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128).
+- You can choose a translation engine.
+  - Google(default), DeepL
+  - If you use DeepL, you need to register with [DeepL API](https://www.deepl.com/pro#developer) to get the key.
+- You can now choose which language to translate into
+  - Language code ([Google](https://github.com/soimort/translate-shell/wiki/Languages), [DeepL](https://www.deepl.com/docs-api/translating-text/))
+
+
+## Features
+Translate and paste the text
 
 <img src="./screenshot/1.gif" width="700">
 
-翻訳してそのまま検索
+Translate and search directly
 
 <img src="./screenshot/2.gif" width="700">
 
-テキストを選択して翻訳
+Selecting and translating text
 
 <img src="./screenshot/3.gif" width="800">
 
-翻訳したログの自動保存 (`~/translate_log.yml`)
+Automatic saving of translated logs (`~/translate_log2.yml`)
 
 <img src="./screenshot/2017-03-1313.35.09.png" width="500">
 
-クリップボードにも自動で保存<br>
-Alfredのクリップボード機能を使うと履歴を検索できるので便利です。
+Automatically saves to the clipboard as well.<br>
+The clipboard feature of Alfred is useful for searching the history.
 
 <img src="./screenshot/2017-03-1313.38.05.png" width="500">
 
-どの機能を使っても、翻訳前、翻訳後のテキストは<br>
-ログファイルとクリップボードの両方に自動で保存されます。
+No matter which feature you use, the pre- and post-translation texts are stored in the log file and the clipboard It is automatically saved to both.
 
-## インストール
+## Install
 
-1:  [Alfred](https://www.alfredapp.com/) をインストールし、Powerpackを購入してライセンス認証。
+1: Install [Alfred](https://www.alfredapp.com/), buy Powerpack and activate it.
 
-2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
+2: Installing various commands
 
 ```shell
-brew install translate-shell
+brew install translate-shell jq coreutils curl
 ```
 
-3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/v1.0.0/quick-translate.alfredworkflow) をダウンロード
+3: Download `quick-translate.alfredworkflow` from [releases](https://github.com/nkmr-jp/alfred-quick-translate/releases)
 
-4: ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
+4: Click on the downloaded `quick-translate.alfredworkflow` to open it and click on `import` to launch Alfred.
 
-<img src="./screenshot/2017-03-1311.52.08.png" width="400">
+<img src="./screenshot/2020-07-13_10.55.02.png" width="400">
 
-## Hotkeyの設定
-AlfredのPreferencesのWorkflowsからQuick Translateを開くとこのように各機能のHotkeyが設定できます。<br>
-初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。<br>
-以下の画像の設定だと。
+## Language and translation engine settings
+After installing the workflow, click on the icon in the upper right corner to open the configuration screen.
+This screen allows you to select a translation engine and language.
+See `About the Workflow` on the left for more information about configuration.
 
-- `alt + s` : 日本語 → 英語 の翻訳ランチャーが起動
-- `alt + cmd + s` : 英語 → 日本語 の翻訳ランチャーが起動
-- `alt + cmd + z` : 選択した日本語のテキストを英語に変換する。
-- `alt + z` : 選択した英語のテキストを日本語に変換する。
+<img src="./screenshot/CA161D10-6685-4D2C-AF51-9D8F9DE6C28A.png" width="800">
 
-となります。
+### When using DeepL
+1. Register with [DeepL API](https://www.deepl.com/pro#developer) to get the API key.
+2. Type `deepl` in the `engine` and Enter the  API key in the `deepl_api_key`.
 
-<img src="./screenshot/2017-03-1310.44.54.png" width="500">
+## Hotkey settings.
+From Workflows in Alfred's Preferences When you open `Quick Translate`, you can set a hotkey for each feature like this.
+Initially, Hotkey is blank, so you can assign a key of your choice and use it 
+
+<img src="./screenshot/DC3E49BD-05A0-448D-BC87-D5708230AC77.png" width="500">
 
 
-## 使い方
-### サクッと翻訳したい
-Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動します。<br>
-文字を入力するとリアルタイムで翻訳されます。<br>
-`Enter` を押すと、翻訳結果をエディタなどに貼り付けられます。
+## Usage
+### When you want a quick translation
+Launch the translation launcher with the key you assigned in the Hotkey settings.
+As you type in the text, it is translated in real time.
+Press `Enter` to paste the translation into an editor.
 
 <img src="./screenshot/1.gif" width="700">
 
 
-### 翻訳してGoogleで検索したい
-Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動します。<br>
-翻訳ランチャーでテキストを入力後<br>
-`ctrl + Enter` で翻訳後のテキストでググれます。
+### When you want to translate and search on Google
+
+Launch the translation launcher with the key you assigned in the Hotkey settings.
+<br>
+After typing the text in the translation launcher<br>
+You can Google the translated text with `cmd Enter`.
 
 <img src="./screenshot/2.gif" width="700">
 
 
-### テキストを選択して翻訳したい
-
-翻訳したいテキストを選択して、Hotkeyに割り当てたキーを入力します。
+### When you want to select and translate text
+Select the text you want to translate and enter the key you assigned to Hotkey.
 
 <img src="./screenshot/3.gif" width="800">
 
-ブラウザだとGoogle翻訳の拡張機能などが使えますが、<br>
-たとえばソースコード上の英語コメントやコマンドの`--help` などをすぐ翻訳したいときにも使えて便利です。
+In the browser, you can use Google Translate, but you can also use comments on the source code and It's also useful when you want to translate chat messages and so on immediately.
