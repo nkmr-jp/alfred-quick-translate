@@ -20,6 +20,16 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>9E58A59B-D9AD-4847-8F90-7D3E54273362</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
@@ -50,6 +60,16 @@
 				<string>Copy to clipboard</string>
 				<key>vitoclose</key>
 				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>22C5CD97-ADE8-453E-B0A4-F00654CDD445</key>
@@ -468,6 +488,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F402F3A5-63BB-4F74-BD15-8123558EB3F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>nkmr-jp</string>
@@ -618,40 +651,6 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:input}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:output}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>adduuid</key>
 				<false/>
 				<key>allowemptyfiles</key>
@@ -701,6 +700,57 @@ echo -n ${DATETIME}</string>
 			<string>97671326-8FC7-4638-9AD8-37EE1F5B35FC</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:input}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:output}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string></string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1389,7 +1439,7 @@ Note:
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>530</integer>
 		</dict>
 		<key>1F011D4E-0137-4930-AEB4-155AC561026D</key>
 		<dict>
@@ -1457,28 +1507,28 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>530</integer>
 		</dict>
 		<key>4359C129-900A-4B45-AC1C-7810C9C534BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1210</integer>
 			<key>ypos</key>
-			<integer>235</integer>
+			<integer>255</integer>
 		</dict>
 		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
 		<dict>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>560</integer>
 		</dict>
 		<key>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</key>
 		<dict>
 			<key>xpos</key>
-			<integer>510</integer>
+			<integer>530</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>155</integer>
 		</dict>
 		<key>63F1ECA2-93AA-41D0-8867-ED6287A0C468</key>
 		<dict>
@@ -1492,7 +1542,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>2170</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 		</dict>
 		<key>682D1F7F-6C57-4135-9C80-2947256E73AB</key>
 		<dict>
@@ -1566,7 +1616,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>1950</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 		</dict>
 		<key>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</key>
 		<dict>
@@ -1580,9 +1630,9 @@ To Native Language</string>
 		<key>9E58A59B-D9AD-4847-8F90-7D3E54273362</key>
 		<dict>
 			<key>xpos</key>
-			<integer>510</integer>
+			<integer>530</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>390</integer>
 		</dict>
 		<key>A788A69B-39BF-44EA-BB2E-C37D184B0665</key>
 		<dict>
@@ -1594,9 +1644,9 @@ To Native Language</string>
 		<key>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1090</integer>
+			<integer>1455</integer>
 			<key>ypos</key>
-			<integer>235</integer>
+			<integer>255</integer>
 		</dict>
 		<key>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</key>
 		<dict>
@@ -1612,7 +1662,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>2100</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>280</integer>
 		</dict>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<dict>
@@ -1653,13 +1703,20 @@ To Native Language</string>
 			<key>ypos</key>
 			<integer>730</integer>
 		</dict>
+		<key>F402F3A5-63BB-4F74-BD15-8123558EB3F6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>535</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>deepl_api_key</key>
 		<string></string>
 		<key>engine</key>
-		<string>google</string>
+		<string>deepl</string>
 		<key>log_file</key>
 		<string>~/translate2_log.yml</string>
 		<key>native_lang</key>
