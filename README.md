@@ -44,12 +44,21 @@ Selecting and translating text
 
 Automatic saving of translated logs (`~/translate_log2.yml`)
 
-<img src="./screenshot/2017-03-1313.35.09.png" width="500">
+<img src="./screenshot/996450EF-DA8F-4499-AB21-34925F9BB3BA.png" width="500">
+
+Since the log file is in Yaml, you can parse it with the yq command.
+
+```sh
+$ brew install python-yq
+$ cat  ~/translate2_log.yml | yq .
+```
+
+<img src="./screenshot/790CEFA3-2145-48EB-969F-D77EE3837DCD.png" width="500">
 
 Automatically saves to the clipboard as well.<br>
 The clipboard feature of Alfred is useful for searching the history.
 
-<img src="./screenshot/2017-03-1313.38.05.png" width="500">
+<img src="./screenshot/2020-07-13_14.15.45.png" width="500">
 
 No matter which feature you use, the pre- and post-translation texts are stored in the log file and the clipboard It is automatically saved to both.
 
@@ -103,7 +112,7 @@ Press `Enter` to paste the translation into an editor.
 Launch the translation launcher with the key you assigned in the Hotkey settings.
 <br>
 After typing the text in the translation launcher<br>
-You can Google the translated text with `cmd Enter`.
+You can Google the translated text with `cmd + Enter`.
 
 <img src="./screenshot/2.gif" width="700">
 

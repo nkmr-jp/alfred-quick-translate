@@ -44,15 +44,25 @@
 
 翻訳したログの自動保存 (`~/translate_log2.yml`)
 
-<img src="./screenshot/2017-03-1313.35.09.png" width="500">
+<img src="./screenshot/996450EF-DA8F-4499-AB21-34925F9BB3BA.png" width="500">
+
+ログファイルはYamlなのでyqコマンドでパース出来ます。
+
+```sh
+$ brew install python-yq
+$ cat  ~/translate2_log.yml | yq .
+```
+
+<img src="./screenshot/790CEFA3-2145-48EB-969F-D77EE3837DCD.png" width="500">
+
+
 
 クリップボードにも自動で保存<br>
 Alfredのクリップボード機能を使うと履歴を検索できるので便利です。
 
-<img src="./screenshot/2017-03-1313.38.05.png" width="500">
+<img src="./screenshot/2020-07-13_14.15.45.png" width="500">
 
-どの機能を使っても、翻訳前、翻訳後のテキストは<br>
-ログファイルとクリップボードの両方に自動で保存されます。
+どの機能を使っても、翻訳前、翻訳後のテキストはログファイルとクリップボードの両方に自動で保存されます。
 
 ## インストール
 
