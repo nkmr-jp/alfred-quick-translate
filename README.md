@@ -65,6 +65,8 @@ brew install translate-shell jq coreutils curl
 
 3: Download `quick-translate.alfredworkflow` from [releases](https://github.com/nkmr-jp/alfred-quick-translate/releases)
 
+<img src="./screenshot/ADC592D1-13C8-4981-BB53-3AC7A791EC1C.png" width="600">
+
 4: Click on the downloaded `quick-translate.alfredworkflow` to open it and click on `import` to launch Alfred.
 
 <img src="./screenshot/2020-07-13_10.55.02.png" width="400">
