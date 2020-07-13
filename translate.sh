@@ -4,7 +4,7 @@
 # shellcheck disable=SC2001
 
 PATH=$PATH:/usr/local/bin
-engines=('aspell' 'google' 'bing' 'spell' 'hunspell' 'apertium' 'yandex')
+engines=('google')
 input=$1
 trans=""
 lf=$'\\\x0A'

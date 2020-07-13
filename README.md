@@ -2,12 +2,11 @@
 - [Alfred 4](https://www.alfredapp.com/) 対応の翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
 - iconは[iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128)で探しました。
-- 翻訳エンジンを選択できます。(8翻訳エンジンから選択できます)
-  - google(デフォルト,おすすめ), deepl(おすすめ)
-  - aspell, bing, spell, hunspell, apertium, yandex
+- 翻訳エンジンを選択できます。
+  - Google(デフォルト), DeepL
   - ※ DeepLを使う場合は [DeepL Pro](https://www.deepl.com/pro#developer) に登録してAPIキーを取得する必要があります。
-- 翻訳する言語を選択できるようになりました(100言語以上対応)
-  - 言語コード([DeepL](https://www.deepl.com/docs-api/translating-text/), [その他](https://github.com/soimort/translate-shell/wiki/Languages))
+- 翻訳する言語を選択できるようになりました
+  - 言語コード([Google](https://github.com/soimort/translate-shell/wiki/Languages), [DeepL](https://www.deepl.com/docs-api/translating-text/))
 
 
 ## 機能
@@ -39,13 +38,13 @@ Alfredのクリップボード機能を使うと履歴を検索できるので�
 
 1:  [Alfred](https://www.alfredapp.com/) をインストールし、Powerpackを購入してライセンス認証。
 
-2:  [translate-shell](https://github.com/soimort/translate-shell) をインストール。
+2:  各種コマンドをインストール
 
 ```shell
-brew install translate-shell
+brew install translate-shell jq coreutils curl
 ```
 
-3: [quick-translate.alfredworkflow](https://github.com/nkmr-jp/alfred-quick-translate/releases/download/1.0/quick-translate.alfredworkflow) をダウンロード
+3: [releases](https://github.com/nkmr-jp/alfred-quick-translate/releases)から`quick-translate.alfredworkflow` をダウンロード
 
 4: ダウンロードした `quick-translate.alfredworkflow` をクリックして開くとAlfredが起動するので`import`をクリック。
 
@@ -91,3 +90,14 @@ Hotkeyの設定で割り当てたキーで翻訳ランチャーを起動しま�
 
 ブラウザだとGoogle翻訳の拡張機能などが使えますが、<br>
 たとえばソースコード上の英語コメントやコマンドの`--help` などをすぐ翻訳したいときにも使えて便利です。
+
+## 設定
+
+### DeepL Proに登録してのAPIキーを取得（DeepLを使う場合のみ必要）
+以下よりDeepL Proに登録して、APIキーを取得してください。
+https://www.deepl.com/pro#developer
+
+### 設定の変更
+ワークフローをインストール後、右上のアイコンをクリックすると設定画面が開きます。この画面で翻訳エンジンや言語を選択できます。DeepLを使う場合は、engineに`deepl`と入力して`deepl_api_key`に取得したキーを入力してください。
+
+<img src="./screenshot/3C9A14C6-C190-4CD4-BF64-117DDC1C4A60.png">

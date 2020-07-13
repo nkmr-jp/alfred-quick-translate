@@ -581,6 +581,8 @@ EOB</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -705,6 +707,8 @@ echo -n ${DATETIME}</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>key</key>
@@ -839,6 +843,8 @@ EOB</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -891,27 +897,6 @@ EOB</string>
 			<key>config</key>
 			<dict>
 				<key>matchmode</key>
-				<integer>1</integer>
-				<key>matchstring</key>
-				<string>\t</string>
-				<key>regexcaseinsensitive</key>
-				<false/>
-				<key>regexmultiline</key>
-				<true/>
-				<key>replacestring</key>
-				<string>    </string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
 				<string>"</string>
@@ -930,6 +915,8 @@ EOB</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -961,6 +948,27 @@ EOB</string>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>E4D2CA9E-A247-4F1E-A561-1B408624D312</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>\t</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<true/>
+				<key>replacestring</key>
+				<string>    </string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1144,6 +1152,26 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -1164,6 +1192,8 @@ fi</string>
 				<key>argument</key>
 				<string>{var:input}
 {var:output}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key></key>
@@ -1186,6 +1216,8 @@ fi</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -1204,24 +1236,8 @@ fi</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>input</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>output</key>
@@ -1270,16 +1286,20 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>matchmode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>matchstring</key>
-				<string>;</string>
+				<string>\t</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<true/>
 				<key>replacestring</key>
-				<string>.</string>
+				<string>    </string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
+			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1305,6 +1325,8 @@ fi</string>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -1326,20 +1348,16 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>matchmode</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>matchstring</key>
-				<string>\t</string>
-				<key>regexcaseinsensitive</key>
-				<false/>
-				<key>regexmultiline</key>
-				<true/>
+				<string>;</string>
 				<key>replacestring</key>
-				<string>    </string>
+				<string>.</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
+			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1347,8 +1365,7 @@ fi</string>
 	<key>readme</key>
 	<string>Workflow Enviromnet Variables:
 	deepl_api_key:	null(default)
-	engine:			google(default,recomend), deepl(recomend)
-					aspell, bing, spell, hunspell, apertium, 					yandex, 
+	engine:			google(default), deepl
 	log_file:		~/translate2_log.yml(default)
 	native_lang:		ja(default)
 	translate_lang:	en(default)
@@ -1356,13 +1373,12 @@ fi</string>
 
 Langage codes:
 	Please refer to the following sites for language codes.
+
+	Google:
+	https://github.com/soimort/translate-shell/wiki/Languages
 	
 	DeepL:
-	https://www.deepl.com/docs-api/translating-text/
-	
-	Other Engines:
-	https://github.com/soimort/translate-shell/wiki/Languages
-
+	https://www.deepl.com/docs-api/translating-text/	
 Note:
 	if you want to use deepl you have to regist DeepL Pro API.
 	https://www.deepl.com/pro#developer</string>
@@ -1643,7 +1659,7 @@ To Native Language</string>
 		<key>deepl_api_key</key>
 		<string></string>
 		<key>engine</key>
-		<string>deepl</string>
+		<string>google</string>
 		<key>log_file</key>
 		<string>~/translate2_log.yml</string>
 		<key>native_lang</key>
