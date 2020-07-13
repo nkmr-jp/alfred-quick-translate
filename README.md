@@ -67,7 +67,6 @@ brew install translate-shell jq coreutils curl
 
 4: Click on the downloaded `quick-translate.alfredworkflow` to open it and click on `import` to launch Alfred.
 
-
 <img src="./screenshot/2020-07-13_10.55.02.png" width="400">
 
 ## Language and translation engine settings
