@@ -1,8 +1,14 @@
 # Alfred Quick Translate
-- [Alfred 4](https://www.alfredapp.com/) 対応のGoogle翻訳ワークフローです。(※有料のPowerpack が必要です。)
+- [Alfred 4](https://www.alfredapp.com/) 対応の翻訳ワークフローです。(※有料のPowerpack が必要です。)
 - [translate-shell](https://github.com/soimort/translate-shell) を使っています。
-- 今のところ日↔英のみ対応しています。
 - iconは[iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128)で探しました。
+- 翻訳エンジンを選択できます。(8翻訳エンジンから選択できます)
+  - google(デフォルト,おすすめ), deepl(おすすめ)
+  - aspell, bing, spell, hunspell, apertium, yandex
+  - ※ DeepLを使う場合は [DeepL Pro](https://www.deepl.com/pro#developer) に登録してAPIキーを取得する必要があります。
+- 翻訳する言語を選択できるようになりました(100言語以上対応)
+  - 言語コード([DeepL](https://www.deepl.com/docs-api/translating-text/), [その他](https://github.com/soimort/translate-shell/wiki/Languages))
+
 
 ## 機能
 翻訳してテキストを貼り付け
@@ -17,7 +23,7 @@
 
 <img src="./screenshot/3.gif" width="800">
 
-翻訳したログの自動保存 (`~/translate_log.yml`)
+翻訳したログの自動保存 (`~/translate_log2.yml`)
 
 <img src="./screenshot/2017-03-1313.35.09.png" width="500">
 
