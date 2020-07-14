@@ -98,10 +98,10 @@ AlfredのPreferencesのWorkflowsからQuick Translateを開くと、このよう
 初期の状態ではHotkeyは空白ですのでお好みのキーを割り当てて使ってください。
 上から順に
 
-- ランチャーから母国語(native_lang)を翻訳対象言語(translate_lang)に翻訳する
-- ランチャーから翻訳対象言語を母国語に翻訳する
-- 選択したテキストを母国語から翻訳対象言語に翻訳する
-- 選択したテキストを翻訳対象言語から母国語に翻訳する
+- ランチャーを起動して母国語(native_lang)から翻訳対象言語(translate_lang)に翻訳する（From Native Language)
+- ランチャーを起動して翻訳対象言語から母国語に翻訳する（To Native Language)
+- 選択したテキストを母国語から翻訳対象言語に翻訳する（From Native Language)
+- 選択したテキストを翻訳対象言語から母国語に翻訳する（To Native Language)
 
 となります。
 

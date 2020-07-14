@@ -93,7 +93,7 @@ See `About the Workflow` on the left for more information about configuration.
 
 ## Hotkey settings.
 From Workflows in Alfred's Preferences When you open `Quick Translate`, you can set a hotkey for each feature like this.
-Initially, Hotkey is blank, so you can assign a key of your choice and use it 
+Initially, Hotkey is blank, so you can assign a key of your choice and use it
 
 <img src="./screenshot/DC3E49BD-05A0-448D-BC87-D5708230AC77.png" width="500">
 
