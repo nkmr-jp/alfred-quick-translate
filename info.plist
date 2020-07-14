@@ -592,7 +592,7 @@ EOB</string>
 				<key>hotkey</key>
 				<integer>1</integer>
 				<key>hotmod</key>
-				<integer>1572864</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>S</string>
 				<key>leftcursor</key>
@@ -805,7 +805,7 @@ echo -n ${DATETIME}</string>
 				<key>hotkey</key>
 				<integer>1</integer>
 				<key>hotmod</key>
-				<integer>524288</integer>
+				<integer>1572864</integer>
 				<key>hotstring</key>
 				<string>S</string>
 				<key>leftcursor</key>
@@ -926,7 +926,7 @@ EOB</string>
 				<key>hotkey</key>
 				<integer>7</integer>
 				<key>hotmod</key>
-				<integer>524288</integer>
+				<integer>1572864</integer>
 				<key>hotstring</key>
 				<string>X</string>
 				<key>leftcursor</key>
@@ -939,65 +939,7 @@ EOB</string>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>"</string>
-				<key>replacestring</key>
-				<string>'</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>682D1F7F-6C57-4135-9C80-2947256E73AB</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>input</key>
-					<string>{query}</string>
-					<key>lang</key>
-					<string>{var:translate_lang}2{var:native_lang}</string>
-					<key>script_type</key>
-					<string>run</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>63F1ECA2-93AA-41D0-8867-ED6287A0C468</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>;</string>
-				<key>replacestring</key>
-				<string>.</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>E4D2CA9E-A247-4F1E-A561-1B408624D312</string>
+			<string>D3D26BCE-9E67-4E1D-BDA5-3CF34C3155BD</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1018,7 +960,65 @@ EOB</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</string>
+			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>"</string>
+				<key>replacestring</key>
+				<string>'</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>22C5CD97-ADE8-453E-B0A4-F00654CDD445</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+					<key>lang</key>
+					<string>{var:native_lang}2{var:translate_lang}</string>
+					<key>script_type</key>
+					<string>run</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>;</string>
+				<key>replacestring</key>
+				<string>.</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1202,26 +1202,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>input</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -1304,6 +1284,26 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1315,7 +1315,7 @@ fi</string>
 				<key>hotkey</key>
 				<integer>7</integer>
 				<key>hotmod</key>
-				<integer>1572864</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>X</string>
 				<key>leftcursor</key>
@@ -1328,7 +1328,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>D3D26BCE-9E67-4E1D-BDA5-3CF34C3155BD</string>
+			<string>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1349,7 +1349,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
+			<string>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1366,7 +1366,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>22C5CD97-ADE8-453E-B0A4-F00654CDD445</string>
+			<string>682D1F7F-6C57-4135-9C80-2947256E73AB</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1382,7 +1382,7 @@ fi</string>
 					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:native_lang}2{var:translate_lang}</string>
+					<string>{var:translate_lang}2{var:native_lang}</string>
 					<key>script_type</key>
 					<string>run</string>
 				</dict>
@@ -1390,7 +1390,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</string>
+			<string>63F1ECA2-93AA-41D0-8867-ED6287A0C468</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1407,7 +1407,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
+			<string>E4D2CA9E-A247-4F1E-A561-1B408624D312</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1453,25 +1453,25 @@ Note:
 			<key>xpos</key>
 			<integer>265</integer>
 			<key>ypos</key>
-			<integer>915</integer>
+			<integer>815</integer>
 		</dict>
 		<key>297B243E-50AC-45B0-A068-60AE7719FD0A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1175</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>920</integer>
 		</dict>
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
 			<key>note</key>
 			<string>Translate Selected Text 
 
-From Native Language</string>
+To Native Language</string>
 			<key>xpos</key>
 			<integer>45</integer>
 			<key>ypos</key>
-			<integer>700</integer>
+			<integer>1000</integer>
 		</dict>
 		<key>2F9CA794-B73D-4681-91F7-C085DB042D1D</key>
 		<dict>
@@ -1489,14 +1489,14 @@ From Native Language</string>
 			<key>xpos</key>
 			<integer>875</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>920</integer>
 		</dict>
 		<key>3246C05F-EAD0-4C1A-A58F-880C7672A28D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>645</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>920</integer>
 		</dict>
 		<key>3529227E-21E4-41D1-8E3E-AB6455398B8B</key>
 		<dict>
@@ -1535,7 +1535,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>410</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>66DF7C80-DC96-4716-965B-FD3631B87BE6</key>
 		<dict>
@@ -1549,7 +1549,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>265</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
 		<dict>
@@ -1563,7 +1563,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>955</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>920</integer>
 		</dict>
 		<key>75BC4038-771A-4194-B655-75CB4722E86A</key>
 		<dict>
@@ -1572,42 +1572,42 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>7C80F7AC-1408-4C03-8627-5CA0904D9253</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1250</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</key>
 		<dict>
 			<key>xpos</key>
 			<integer>330</integer>
 			<key>ypos</key>
-			<integer>915</integer>
+			<integer>815</integer>
 		</dict>
 		<key>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>808FF62C-FBD1-4D96-92F4-9D660A899A51</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1840</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>920</integer>
 		</dict>
 		<key>85DB4F11-AF27-459E-8D1A-982820923EE1</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1390</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<dict>
@@ -1625,7 +1625,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>1540</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>9E58A59B-D9AD-4847-8F90-7D3E54273362</key>
 		<dict>
@@ -1639,7 +1639,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>720</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</key>
 		<dict>
@@ -1655,7 +1655,7 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>495</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</key>
 		<dict>
@@ -1669,39 +1669,39 @@ To Native Language</string>
 			<key>xpos</key>
 			<integer>410</integer>
 			<key>ypos</key>
-			<integer>915</integer>
+			<integer>815</integer>
 		</dict>
 		<key>D3D26BCE-9E67-4E1D-BDA5-3CF34C3155BD</key>
 		<dict>
 			<key>note</key>
 			<string>Translate Selected Text
 
-To Native Language</string>
+From Native Language</string>
 			<key>xpos</key>
 			<integer>45</integer>
 			<key>ypos</key>
-			<integer>885</integer>
+			<integer>785</integer>
 		</dict>
 		<key>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1685</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>890</integer>
 		</dict>
 		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>915</integer>
+			<integer>815</integer>
 		</dict>
 		<key>E4D2CA9E-A247-4F1E-A561-1B408624D312</key>
 		<dict>
 			<key>xpos</key>
 			<integer>330</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>F402F3A5-63BB-4F74-BD15-8123558EB3F6</key>
 		<dict>
@@ -1716,7 +1716,7 @@ To Native Language</string>
 		<key>deepl_api_key</key>
 		<string></string>
 		<key>engine</key>
-		<string>deepl</string>
+		<string>google</string>
 		<key>log_file</key>
 		<string>~/translate2_log.yml</string>
 		<key>native_lang</key>
