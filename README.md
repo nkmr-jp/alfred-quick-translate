@@ -60,7 +60,7 @@ The clipboard feature of Alfred is useful for searching the history.
 
 <img src="./screenshot/2020-07-13_14.15.45.png" width="500">
 
-No matter which feature you use, the pre- and post-translation texts are stored in the log file and the clipboard It is automatically saved to both.
+No matter which features you use, the pre- and post-translation texts are stored in the log file, and it automatically saved the clipboard both.
 
 ## Install
 
@@ -81,9 +81,8 @@ brew install translate-shell jq coreutils curl
 <img src="./screenshot/2020-07-13_10.55.02.png" width="400">
 
 ## Language and translation engine settings
-After installing the workflow, click on the icon in the upper right corner to open the configuration screen.
-This screen allows you to select a translation engine and language.
-See `About the Workflow` on the left for more information about configuration.
+After installing the workflow, click on the icon in the upper right corner to open the configuration screen. This screen allows you to select a translation engine and language. See `About the Workflow` on the left for more configuration information.
+
 
 <img src="./screenshot/CA161D10-6685-4D2C-AF51-9D8F9DE6C28A.png" width="800">
 
@@ -100,9 +99,8 @@ Initially, Hotkey is blank, so you can assign a key of your choice and use it
 
 ## Usage
 ### When you want a quick translation
-Launch the translation launcher with the key you assigned in the Hotkey settings.
-As you type in the text, it is translated in real time.
-Press `Enter` to paste the translation into an editor.
+Launch the translation launcher with the key you assigned in the Hotkey settings. As you type in the text, it translates in real-time. 
+You can press `Enter` to paste the translation into an editor.
 
 <img src="./screenshot/1.gif" width="700">
 
@@ -110,8 +108,7 @@ Press `Enter` to paste the translation into an editor.
 ### When you want to translate and search on Google
 
 Launch the translation launcher with the key you assigned in the Hotkey settings.
-<br>
-After typing the text in the translation launcher<br>
+After typing the text in the translation launcher,
 You can Google the translated text with `cmd + Enter`.
 
 <img src="./screenshot/2.gif" width="700">
@@ -122,4 +119,6 @@ Select the text you want to translate and enter the key you assigned to Hotkey.
 
 <img src="./screenshot/3.gif" width="800">
 
-In the browser, you can use Google Translate, but you can also use comments on the source code and It's also useful when you want to translate chat messages and so on immediately.
+When in the browser, you can use Google Translate. 
+But if you use Alfred Quick Transrate, when you want to read comments on the source code of not the native language, and useful when you want to translate chat messages and so on immediately.
+
