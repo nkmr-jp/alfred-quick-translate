@@ -1,4 +1,4 @@
-[EN](README.md) | [JA](README_JA.md)
+[English](README.md) | [日本語](README_JA.md)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
