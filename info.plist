@@ -538,7 +538,7 @@
 				<key>runningsubtext</key>
 				<string>Translating...</string>
 				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
+				<string>PATH=$PATH:/usr/local/bin:/opt/homebrew/bin
 TRANS=`trans -b "{query}"`
 
 cat &lt;&lt; EOB
@@ -684,7 +684,7 @@ EOB</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
+				<string>PATH=$PATH:/usr/local/bin:/opt/homebrew/bin
 DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
 echo -n ${DATETIME}</string>
 				<key>scriptargtype</key>
@@ -848,7 +848,7 @@ echo -n ${DATETIME}</string>
 				<key>runningsubtext</key>
 				<string>Tlanslating...</string>
 				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
+				<string>PATH=$PATH:/usr/local/bin:/opt/homebrew/bin
 TRANS=`trans :ja -b "{query}"`
 
 cat &lt;&lt; EOB
@@ -1030,7 +1030,7 @@ EOB</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>PATH=$PATH:/usr/local/bin
+				<string>PATH=$PATH:/usr/local/bin:/opt/homebrew/bin
 trans=`trans :ja -b "{query}"`
 echo -n $trans</string>
 				<key>scriptargtype</key>
@@ -1143,10 +1143,10 @@ echo -n "$input"</string>
 				<string>view_input=$input
 view_output=$output
 
-if [[ $input == "*。*" ]]; then 
+if [[ $input == "*。*" ]]; then
 	view_input=$(echo -n "$input" | fold -w 80)
 fi
-if [[ $output == "*。*" ]]; then 
+if [[ $output == "*。*" ]]; then
 	view_output=$(echo -n "$output" | fold -w 80)
 fi
 
@@ -1426,9 +1426,9 @@ Langage codes:
 
 	Google:
 	https://github.com/soimort/translate-shell/wiki/Languages
-	
+
 	DeepL:
-	https://www.deepl.com/docs-api/translating-text/	
+	https://www.deepl.com/docs-api/translating-text/
 Note:
 	if you want to use deepl you have to regist DeepL Pro API.
 	https://www.deepl.com/pro#developer</string>
@@ -1465,7 +1465,7 @@ Note:
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
 			<key>note</key>
-			<string>Translate Selected Text 
+			<string>Translate Selected Text
 
 To Native Language</string>
 			<key>xpos</key>
@@ -1477,7 +1477,7 @@ To Native Language</string>
 		<dict>
 			<key>note</key>
 			<string>Translat in Launcher
- 
+
 From Native Language</string>
 			<key>xpos</key>
 			<integer>50</integer>
