@@ -1476,7 +1476,7 @@ To Native Language</string>
 		<key>2F9CA794-B73D-4681-91F7-C085DB042D1D</key>
 		<dict>
 			<key>note</key>
-			<string>Translat in Launcher
+			<string>Translate in Launcher
 
 From Native Language</string>
 			<key>xpos</key>
@@ -1501,7 +1501,7 @@ From Native Language</string>
 		<key>3529227E-21E4-41D1-8E3E-AB6455398B8B</key>
 		<dict>
 			<key>note</key>
-			<string>Translat in Launcher
+			<string>Translate in Launcher
 
 To Native Language</string>
 			<key>xpos</key>
@@ -1731,7 +1731,7 @@ From Native Language</string>
 		<string>deepl_api_key</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nkmr-jp/alfred-quick-translate</string>
 </dict>
