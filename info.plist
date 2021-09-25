@@ -1731,7 +1731,7 @@ From Native Language</string>
 		<string>deepl_api_key</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nkmr-jp/alfred-quick-translate</string>
 </dict>
