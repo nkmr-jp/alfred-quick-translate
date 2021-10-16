@@ -6,6 +6,19 @@
 	<string>alfred-quick-translate</string>
 	<key>connections</key>
 	<dict>
+		<key>09E1E8B9-E7A2-4D97-9E82-3233172F0A91</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
 		<array>
 			<dict>
@@ -98,6 +111,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>25D8F3FB-6532-413B-8F14-D94A12D0FE8C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>297B243E-50AC-45B0-A068-60AE7719FD0A</key>
 		<array>
 			<dict>
@@ -124,11 +150,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2EE8AAFA-5132-4C9B-9A3B-5C05F5C093D6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>25D8F3FB-6532-413B-8F14-D94A12D0FE8C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2F9CA794-B73D-4681-91F7-C085DB042D1D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
+				<string>3E246508-69FA-46F0-85C0-8FB59BBC7ADD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -167,7 +206,33 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>456E3E52-A995-4BAB-9F38-07CCE0C82D67</string>
+				<string>3E1442AF-52EA-4020-804C-8129EF2A7C12</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E1442AF-52EA-4020-804C-8129EF2A7C12</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>915AC19E-ED7A-4F29-845E-60F49638FA85</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E246508-69FA-46F0-85C0-8FB59BBC7ADD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EE8AAFA-5132-4C9B-9A3B-5C05F5C093D6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -189,24 +254,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
+		<key>61A4C79E-8CF2-42F6-AF5F-F6DEA01EB52C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1B5E2D56-7237-4203-9373-8DE982B0E0D1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>63F1ECA2-93AA-41D0-8867-ED6287A0C468</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</string>
+				<string>09E1E8B9-E7A2-4D97-9E82-3233172F0A91</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -228,11 +280,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
+		<key>737238EF-AFCC-43D3-A087-80FDE8BCAE50</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1F011D4E-0137-4930-AEB4-155AC561026D</string>
+				<string>75BC4038-771A-4194-B655-75CB4722E86A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -241,11 +293,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>737238EF-AFCC-43D3-A087-80FDE8BCAE50</key>
+		<key>73C23B5B-061C-4090-B041-6CC93E3CE5C7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75BC4038-771A-4194-B655-75CB4722E86A</string>
+				<string>DB0C4C7C-5CD8-4314-9F5A-6A78F447BD66</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -332,6 +384,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>915AC19E-ED7A-4F29-845E-60F49638FA85</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F59E4CBD-56FB-4E8C-A916-7B2657BD8B26</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<array>
 			<dict>
@@ -350,6 +415,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9AF84FF3-6752-4951-81F4-C5F8E7C8FB23</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>73C23B5B-061C-4090-B041-6CC93E3CE5C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -410,11 +488,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B40D456F-72CD-4ABD-912B-A90E6BE38292</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB05B7A1-B907-4F8D-A64A-7B9FAE8E9F16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</string>
+				<string>61A4C79E-8CF2-42F6-AF5F-F6DEA01EB52C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -462,6 +553,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DB0C4C7C-5CD8-4314-9F5A-6A78F447BD66</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
 		<array>
 			<dict>
@@ -479,7 +583,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>63F1ECA2-93AA-41D0-8867-ED6287A0C468</string>
+				<string>9AF84FF3-6752-4951-81F4-C5F8E7C8FB23</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -501,6 +605,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F59E4CBD-56FB-4E8C-A916-7B2657BD8B26</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B5E2D56-7237-4203-9373-8DE982B0E0D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FB05B7A1-B907-4F8D-A64A-7B9FAE8E9F16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45048829-3C98-4B44-93AA-D34F7D88CD3B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>nkmr-jp</string>
@@ -509,9 +639,131 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Quick Translate</string>
+	<string>Quick Translate (v2.1.0)</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>PATH=$PATH:/usr/local/bin:/opt/homebrew/bin
+DATETIME=$(gdate "+%y%m%d_%H%M%S_%3N")
+echo -n ${DATETIME}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>switch.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FB05B7A1-B907-4F8D-A64A-7B9FAE8E9F16</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>2</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string>System</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>...........................................
+foreign language setting
+
+{query}
+
+...........................................</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>45048829-3C98-4B44-93AA-D34F7D88CD3B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B40D456F-72CD-4ABD-912B-A90E6BE38292</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+tmp_file=/tmp/quick_translate_tmp
+langs=($(echo "$foreign_lang" | tr ',' '\n'))
+
+if [ -e $tmp_file ]; then
+    current=$(cat $tmp_file)
+else
+    current="${langs[0]}"
+fi
+echo -n "$current"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>load.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E246508-69FA-46F0-85C0-8FB59BBC7ADD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -581,6 +833,29 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n ""</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>25D8F3FB-6532-413B-8F14-D94A12D0FE8C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -638,11 +913,9 @@ EOB</string>
 				<key>variables</key>
 				<dict>
 					<key>foreign_lang</key>
-					<string>{var:foreign_lang}</string>
-					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:native_lang}2{var:foreign_lang}</string>
+					<string>{var:native_lang}2{query}</string>
 					<key>script_type</key>
 					<string>filter</string>
 				</dict>
@@ -650,7 +923,7 @@ EOB</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
+			<string>2EE8AAFA-5132-4C9B-9A3B-5C05F5C093D6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -905,6 +1178,61 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+tmp_file=/tmp/quick_translate_tmp
+langs=($(echo "$foreign_lang" | tr ',' '\n'))
+
+if [ -e $tmp_file ]; then
+    current=$(cat $tmp_file)
+else
+    current="${langs[0]}"
+fi
+echo -n "$current"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>load.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E1442AF-52EA-4020-804C-8129EF2A7C12</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n ""</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F59E4CBD-56FB-4E8C-A916-7B2657BD8B26</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -912,11 +1240,9 @@ EOB</string>
 				<key>variables</key>
 				<dict>
 					<key>foreign_lang</key>
-					<string>{var:foreign_lang}</string>
-					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:foreign_lang}2{var:native_lang}</string>
+					<string>{query}2{var:native_lang}</string>
 					<key>script_type</key>
 					<string>filter</string>
 				</dict>
@@ -924,7 +1250,7 @@ EOB</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>456E3E52-A995-4BAB-9F38-07CCE0C82D67</string>
+			<string>915AC19E-ED7A-4F29-845E-60F49638FA85</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -962,21 +1288,32 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>matchmode</key>
-				<integer>1</integer>
-				<key>matchstring</key>
-				<string>\t</string>
-				<key>regexcaseinsensitive</key>
+				<key>concurrently</key>
 				<false/>
-				<key>regexmultiline</key>
-				<true/>
-				<key>replacestring</key>
-				<string>    </string>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+tmp_file=/tmp/quick_translate_tmp
+langs=($(echo "$foreign_lang" | tr ',' '\n'))
+
+if [ -e $tmp_file ]; then
+    current=$(cat $tmp_file)
+else
+    current="${langs[0]}"
+fi
+echo -n "$current"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>load.sh</string>
+				<key>type</key>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
+			<string>61A4C79E-8CF2-42F6-AF5F-F6DEA01EB52C</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1007,13 +1344,31 @@ EOB</string>
 				<key>variables</key>
 				<dict>
 					<key>foreign_lang</key>
-					<string>{var:foreign_lang}</string>
-					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:native_lang}2{var:foreign_lang}</string>
+					<string>{var:native_lang}2{query}</string>
 					<key>script_type</key>
 					<string>run</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>09E1E8B9-E7A2-4D97-9E82-3233172F0A91</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -1037,6 +1392,27 @@ EOB</string>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>\t</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<true/>
+				<key>replacestring</key>
+				<string>    </string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>DFA97F43-A312-45FA-9206-762301F7CE72</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1228,6 +1604,46 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>output</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>737238EF-AFCC-43D3-A087-80FDE8BCAE50</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -1290,46 +1706,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>output</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>737238EF-AFCC-43D3-A087-80FDE8BCAE50</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>input</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>297B243E-50AC-45B0-A068-60AE7719FD0A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1355,6 +1731,38 @@ fi</string>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+tmp_file=/tmp/quick_translate_tmp
+langs=($(echo "$foreign_lang" | tr ',' '\n'))
+
+if [ -e $tmp_file ]; then
+    current=$(cat $tmp_file)
+else
+    current="${langs[0]}"
+fi
+echo -n "$current"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>load.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>73C23B5B-061C-4090-B041-6CC93E3CE5C7</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1405,12 +1813,30 @@ fi</string>
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>foreign_lang</key>
-					<string>{var:foreign_lang}</string>
 					<key>input</key>
 					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9AF84FF3-6752-4951-81F4-C5F8E7C8FB23</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>foreign_lang</key>
+					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:foreign_lang}2{var:native_lang}</string>
+					<string>{query}2{var:native_lang}</string>
 					<key>script_type</key>
 					<string>run</string>
 				</dict>
@@ -1418,7 +1844,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>63F1ECA2-93AA-41D0-8867-ED6287A0C468</string>
+			<string>DB0C4C7C-5CD8-4314-9F5A-6A78F447BD66</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1447,7 +1873,9 @@ fi</string>
 	engine:			google(default), deepl
 	log_file:		~/translate2_log.yml(default)
 	native_lang:		ja(default)
-	translate_lang:	en(default)
+	foreign_lang:	en(default)
+					(it can be switched by setting multiple.)
+					(example: en,zh )
 	view:			input_output(default), output_only
 
 Langage codes:
@@ -1464,40 +1892,54 @@ Note:
 	https://www.deepl.com/pro-api</string>
 	<key>uidata</key>
 	<dict>
+		<key>09E1E8B9-E7A2-4D97-9E82-3233172F0A91</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>730</integer>
+		</dict>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>315</integer>
+			<integer>585</integer>
 			<key>ypos</key>
-			<integer>455</integer>
+			<integer>505</integer>
 		</dict>
 		<key>1F011D4E-0137-4930-AEB4-155AC561026D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>315</integer>
+			<integer>585</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>330</integer>
 		</dict>
 		<key>228A2A60-7056-4984-9639-D5658BAC1D9E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>765</integer>
+			<integer>1015</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>330</integer>
 		</dict>
 		<key>22C5CD97-ADE8-453E-B0A4-F00654CDD445</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>680</integer>
+			<integer>730</integer>
+		</dict>
+		<key>25D8F3FB-6532-413B-8F14-D94A12D0FE8C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>330</integer>
 		</dict>
 		<key>297B243E-50AC-45B0-A068-60AE7719FD0A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1200</integer>
+			<integer>1270</integer>
 			<key>ypos</key>
-			<integer>765</integer>
+			<integer>820</integer>
 		</dict>
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
@@ -1507,7 +1949,14 @@ from foreign_lang to native_lang</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>835</integer>
+			<integer>885</integer>
+		</dict>
+		<key>2EE8AAFA-5132-4C9B-9A3B-5C05F5C093D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>365</integer>
+			<key>ypos</key>
+			<integer>360</integer>
 		</dict>
 		<key>2F9CA794-B73D-4681-91F7-C085DB042D1D</key>
 		<dict>
@@ -1516,21 +1965,21 @@ from foreign_lang to native_lang</string>
 			<key>xpos</key>
 			<integer>70</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>330</integer>
 		</dict>
 		<key>31600DAD-FC8B-4AFC-BFF1-F74DE9B316DE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>1000</integer>
 			<key>ypos</key>
-			<integer>765</integer>
+			<integer>820</integer>
 		</dict>
 		<key>3246C05F-EAD0-4C1A-A58F-880C7672A28D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>795</integer>
 			<key>ypos</key>
-			<integer>765</integer>
+			<integer>820</integer>
 		</dict>
 		<key>3529227E-21E4-41D1-8E3E-AB6455398B8B</key>
 		<dict>
@@ -1539,162 +1988,199 @@ from foreign_lang to native_lang</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>455</integer>
+			<integer>505</integer>
+		</dict>
+		<key>3E1442AF-52EA-4020-804C-8129EF2A7C12</key>
+		<dict>
+			<key>xpos</key>
+			<integer>215</integer>
+			<key>ypos</key>
+			<integer>505</integer>
+		</dict>
+		<key>3E246508-69FA-46F0-85C0-8FB59BBC7ADD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>215</integer>
+			<key>ypos</key>
+			<integer>330</integer>
 		</dict>
 		<key>4359C129-900A-4B45-AC1C-7810C9C534BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<integer>1205</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>415</integer>
 		</dict>
-		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
+		<key>45048829-3C98-4B44-93AA-D34F7D88CD3B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>225</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>485</integer>
+			<integer>150</integer>
 		</dict>
-		<key>63F1ECA2-93AA-41D0-8867-ED6287A0C468</key>
+		<key>61A4C79E-8CF2-42F6-AF5F-F6DEA01EB52C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>435</integer>
 			<key>ypos</key>
-			<integer>865</integer>
+			<integer>700</integer>
 		</dict>
 		<key>66DF7C80-DC96-4716-965B-FD3631B87BE6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2180</integer>
+			<integer>2235</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>415</integer>
 		</dict>
 		<key>682D1F7F-6C57-4135-9C80-2947256E73AB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>865</integer>
-		</dict>
-		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
-		<dict>
-			<key>xpos</key>
-			<integer>225</integer>
-			<key>ypos</key>
-			<integer>110</integer>
+			<integer>915</integer>
 		</dict>
 		<key>737238EF-AFCC-43D3-A087-80FDE8BCAE50</key>
 		<dict>
 			<key>xpos</key>
-			<integer>980</integer>
+			<integer>1065</integer>
 			<key>ypos</key>
-			<integer>765</integer>
+			<integer>820</integer>
+		</dict>
+		<key>73C23B5B-061C-4090-B041-6CC93E3CE5C7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>885</integer>
 		</dict>
 		<key>75BC4038-771A-4194-B655-75CB4722E86A</key>
 		<dict>
-			<key>note</key>
-			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1055</integer>
+			<integer>1130</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
 		</dict>
 		<key>7C80F7AC-1408-4C03-8627-5CA0904D9253</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1275</integer>
+			<integer>1340</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
 		</dict>
 		<key>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>680</integer>
+			<integer>730</integer>
 		</dict>
 		<key>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>205</integer>
 			<key>ypos</key>
-			<integer>865</integer>
+			<integer>915</integer>
 		</dict>
 		<key>808FF62C-FBD1-4D96-92F4-9D660A899A51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1865</integer>
+			<integer>1910</integer>
 			<key>ypos</key>
-			<integer>765</integer>
+			<integer>820</integer>
 		</dict>
 		<key>85DB4F11-AF27-459E-8D1A-982820923EE1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1415</integer>
+			<integer>1485</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
+		</dict>
+		<key>915AC19E-ED7A-4F29-845E-60F49638FA85</key>
+		<dict>
+			<key>xpos</key>
+			<integer>365</integer>
+			<key>ypos</key>
+			<integer>535</integer>
 		</dict>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1960</integer>
+			<integer>2015</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>415</integer>
 		</dict>
 		<key>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</key>
 		<dict>
 			<key>note</key>
-			<string>DateTime</string>
+			<string>View</string>
 			<key>xpos</key>
-			<integer>1565</integer>
+			<integer>1625</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
+		</dict>
+		<key>9AF84FF3-6752-4951-81F4-C5F8E7C8FB23</key>
+		<dict>
+			<key>xpos</key>
+			<integer>375</integer>
+			<key>ypos</key>
+			<integer>915</integer>
 		</dict>
 		<key>A788A69B-39BF-44EA-BB2E-C37D184B0665</key>
 		<dict>
+			<key>note</key>
+			<string>Translate</string>
 			<key>xpos</key>
-			<integer>745</integer>
+			<integer>855</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
 		</dict>
 		<key>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1470</integer>
+			<integer>1355</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>415</integer>
 		</dict>
 		<key>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</key>
 		<dict>
 			<key>note</key>
-			<string>DateTime</string>
+			<string>Input</string>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>660</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
 		</dict>
 		<key>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2110</integer>
+			<integer>2165</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>445</integer>
+		</dict>
+		<key>B40D456F-72CD-4ABD-912B-A90E6BE38292</key>
+		<dict>
+			<key>note</key>
+			<string>Switch foregin_lang</string>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>375</integer>
 			<key>ypos</key>
-			<integer>680</integer>
+			<integer>730</integer>
 		</dict>
 		<key>D1AD1096-41AD-4668-BD57-C890F9DDAE65</key>
 		<dict>
 			<key>xpos</key>
-			<integer>755</integer>
+			<integer>1020</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>500</integer>
 		</dict>
 		<key>D3D26BCE-9E67-4E1D-BDA5-3CF34C3155BD</key>
 		<dict>
@@ -1703,35 +2189,58 @@ from foreign_lang to native_lang</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>650</integer>
+			<integer>700</integer>
 		</dict>
 		<key>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1710</integer>
+			<integer>1765</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>790</integer>
+		</dict>
+		<key>DB0C4C7C-5CD8-4314-9F5A-6A78F447BD66</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>915</integer>
 		</dict>
 		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>205</integer>
 			<key>ypos</key>
-			<integer>680</integer>
+			<integer>730</integer>
 		</dict>
 		<key>E4D2CA9E-A247-4F1E-A561-1B408624D312</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>865</integer>
+			<integer>915</integer>
 		</dict>
 		<key>F402F3A5-63BB-4F74-BD15-8123558EB3F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<integer>770</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>415</integer>
+		</dict>
+		<key>F59E4CBD-56FB-4E8C-A916-7B2657BD8B26</key>
+		<dict>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>505</integer>
+		</dict>
+		<key>FB05B7A1-B907-4F8D-A64A-7B9FAE8E9F16</key>
+		<dict>
+			<key>note</key>
+			<string>Switch</string>
+			<key>xpos</key>
+			<integer>215</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -1743,7 +2252,7 @@ from foreign_lang to native_lang</string>
 		<key>engine</key>
 		<string>google</string>
 		<key>foreign_lang</key>
-		<string>en</string>
+		<string>en,zh</string>
 		<key>log_file</key>
 		<string>~/translate2_log.yml</string>
 		<key>native_lang</key>
