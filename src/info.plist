@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>alfred-quick-translate</string>
 	<key>connections</key>
 	<dict>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
@@ -30,11 +30,11 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>9E58A59B-D9AD-4847-8F90-7D3E54273362</string>
+				<string>D1AD1096-41AD-4668-BD57-C890F9DDAE65</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Search in Google ( by Inputed Text )</string>
+				<string>Search in google ( lang: {var:native_lang} )</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -43,11 +43,11 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</string>
+				<string>228A2A60-7056-4984-9639-D5658BAC1D9E</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Search in Google ( by Translated Text )</string>
+				<string>Search in google ( lang: {var:foreign_lang} )</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -64,6 +64,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>228A2A60-7056-4984-9639-D5658BAC1D9E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -181,19 +194,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1B5E2D56-7237-4203-9373-8DE982B0E0D1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -358,19 +358,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>9E58A59B-D9AD-4847-8F90-7D3E54273362</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>A788A69B-39BF-44EA-BB2E-C37D184B0665</key>
 		<array>
 			<dict>
@@ -428,6 +415,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D1AD1096-41AD-4668-BD57-C890F9DDAE65</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4359C129-900A-4B45-AC1C-7810C9C534BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -563,7 +563,7 @@ EOB</string>
 				<key>scriptfile</key>
 				<string>translate.sh</string>
 				<key>subtext</key>
-				<string>{var:native_lang} → {var:translate_lang} (engine: {var:engine})</string>
+				<string>{var:native_lang} → {var:foreign_lang} ( engine: {var:engine} )</string>
 				<key>title</key>
 				<string>Quick Translate</string>
 				<key>type</key>
@@ -612,16 +612,37 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.google.com/search?q={var:output}&amp;hl={var:foreign_lang}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>228A2A60-7056-4984-9639-D5658BAC1D9E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>foreign_lang</key>
+					<string>{var:foreign_lang}</string>
 					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:native_lang}2{var:translate_lang}</string>
+					<string>{var:native_lang}2{var:foreign_lang}</string>
 					<key>script_type</key>
 					<string>filter</string>
 				</dict>
@@ -630,21 +651,6 @@ EOB</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>70890AC2-ACAA-432B-8A0C-D940027DD8C9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -664,6 +670,8 @@ EOB</string>
   engine: "{var:engine}"
   in: "{var:input}"
   out: "{var:output}"</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>relativepathmode</key>
 				<integer>0</integer>
 				<key>type</key>
@@ -675,6 +683,25 @@ EOB</string>
 			<string>66DF7C80-DC96-4716-965B-FD3631B87BE6</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -708,6 +735,8 @@ echo -n ${DATETIME}</string>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{var:input}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -725,6 +754,8 @@ echo -n ${DATETIME}</string>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{var:output}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -732,23 +763,6 @@ echo -n ${DATETIME}</string>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string></string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>F402F3A5-63BB-4F74-BD15-8123558EB3F6</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -780,14 +794,14 @@ echo -n ${DATETIME}</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://www.google.com/search?q={var:input}</string>
+				<string>https://www.google.com/search?q={var:output}&amp;hl={var:native_lang}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>9E58A59B-D9AD-4847-8F90-7D3E54273362</string>
+			<string>D1AD1096-41AD-4668-BD57-C890F9DDAE65</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -873,7 +887,7 @@ EOB</string>
 				<key>scriptfile</key>
 				<string>translate.sh</string>
 				<key>subtext</key>
-				<string>{var:translate_lang} → {var:native_lang} (engine: {var:engine})</string>
+				<string>{var:foreign_lang} → {var:native_lang} (engine: {var:engine})</string>
 				<key>title</key>
 				<string>Quick Translate</string>
 				<key>type</key>
@@ -897,10 +911,12 @@ EOB</string>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>foreign_lang</key>
+					<string>{var:foreign_lang}</string>
 					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:translate_lang}2{var:native_lang}</string>
+					<string>{var:foreign_lang}2{var:native_lang}</string>
 					<key>script_type</key>
 					<string>filter</string>
 				</dict>
@@ -990,10 +1006,12 @@ EOB</string>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>foreign_lang</key>
+					<string>{var:foreign_lang}</string>
 					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:native_lang}2{var:translate_lang}</string>
+					<string>{var:native_lang}2{var:foreign_lang}</string>
 					<key>script_type</key>
 					<string>run</string>
 				</dict>
@@ -1105,6 +1123,8 @@ echo -n "$input"</string>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{var:input}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -1122,6 +1142,8 @@ echo -n "$input"</string>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{var:output}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -1143,10 +1165,10 @@ echo -n "$input"</string>
 				<string>view_input=$input
 view_output=$output
 
-if [[ $input == "*。*" ]]; then
+if [[ $input == "*。*" ]]; then 
 	view_input=$(echo -n "$input" | fold -w 80)
 fi
-if [[ $output == "*。*" ]]; then
+if [[ $output == "*。*" ]]; then 
 	view_output=$(echo -n "$output" | fold -w 80)
 fi
 
@@ -1187,10 +1209,14 @@ fi</string>
 				<integer>0</integer>
 				<key>font</key>
 				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>largetypetext</key>
 				<string>{query}</string>
 				<key>textcolor</key>
 				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
@@ -1379,10 +1405,12 @@ fi</string>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>foreign_lang</key>
+					<string>{var:foreign_lang}</string>
 					<key>input</key>
 					<string>{query}</string>
 					<key>lang</key>
-					<string>{var:translate_lang}2{var:native_lang}</string>
+					<string>{var:foreign_lang}2{var:native_lang}</string>
 					<key>script_type</key>
 					<string>run</string>
 				</dict>
@@ -1415,6 +1443,7 @@ fi</string>
 	<key>readme</key>
 	<string>Workflow Enviromnet Variables:
 	deepl_api_key:	null(default)
+	deepl_api_url:	free(default), pro
 	engine:			google(default), deepl
 	log_file:		~/translate2_log.yml(default)
 	native_lang:		ja(default)
@@ -1426,303 +1455,299 @@ Langage codes:
 
 	Google:
 	https://github.com/soimort/translate-shell/wiki/Languages
-
+	
 	DeepL:
-	https://www.deepl.com/docs-api/translating-text/
+	https://www.deepl.com/docs-api/translating-text/	
 Note:
-	if you want to use deepl you have to regist DeepL Pro API.
-	https://www.deepl.com/pro#developer</string>
+	if you want to use deepl 
+	you have to regist "DeepL API Pro" or "DeepL API Free"
+	https://www.deepl.com/pro-api</string>
 	<key>uidata</key>
 	<dict>
 		<key>1B5E2D56-7237-4203-9373-8DE982B0E0D1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>530</integer>
+			<integer>455</integer>
 		</dict>
 		<key>1F011D4E-0137-4930-AEB4-155AC561026D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>80</integer>
+		</dict>
+		<key>228A2A60-7056-4984-9639-D5658BAC1D9E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>765</integer>
+			<key>ypos</key>
+			<integer>80</integer>
 		</dict>
 		<key>22C5CD97-ADE8-453E-B0A4-F00654CDD445</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>285</integer>
 			<key>ypos</key>
-			<integer>815</integer>
+			<integer>680</integer>
 		</dict>
 		<key>297B243E-50AC-45B0-A068-60AE7719FD0A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1175</integer>
+			<integer>1200</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>765</integer>
 		</dict>
 		<key>2DB33E9B-FD0F-4716-9D9E-A996C59BB398</key>
 		<dict>
 			<key>note</key>
-			<string>Translate Selected Text
-
-To Native Language</string>
+			<string>Translate selected text 
+from foreign_lang to native_lang</string>
 			<key>xpos</key>
-			<integer>45</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>835</integer>
 		</dict>
 		<key>2F9CA794-B73D-4681-91F7-C085DB042D1D</key>
 		<dict>
 			<key>note</key>
-			<string>Translate in Launcher
-
-From Native Language</string>
+			<string>Translate in launcher from native_lang to foreign_lang</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>80</integer>
 		</dict>
 		<key>31600DAD-FC8B-4AFC-BFF1-F74DE9B316DE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>875</integer>
+			<integer>900</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>765</integer>
 		</dict>
 		<key>3246C05F-EAD0-4C1A-A58F-880C7672A28D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>645</integer>
+			<integer>670</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>765</integer>
 		</dict>
 		<key>3529227E-21E4-41D1-8E3E-AB6455398B8B</key>
 		<dict>
 			<key>note</key>
-			<string>Translate in Launcher
-
-To Native Language</string>
+			<string>Translate in launcher from foreign_lang to native_lang</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>530</integer>
+			<integer>455</integer>
 		</dict>
 		<key>4359C129-900A-4B45-AC1C-7810C9C534BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1210</integer>
+			<integer>1225</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>265</integer>
 		</dict>
 		<key>456E3E52-A995-4BAB-9F38-07CCE0C82D67</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>560</integer>
-		</dict>
-		<key>5C8BFE82-69F5-4E5B-8A48-B3E8FB2EDA09</key>
-		<dict>
-			<key>xpos</key>
-			<integer>530</integer>
-			<key>ypos</key>
-			<integer>155</integer>
+			<integer>485</integer>
 		</dict>
 		<key>63F1ECA2-93AA-41D0-8867-ED6287A0C468</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>1030</integer>
+			<integer>865</integer>
 		</dict>
 		<key>66DF7C80-DC96-4716-965B-FD3631B87BE6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2170</integer>
+			<integer>2180</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>265</integer>
 		</dict>
 		<key>682D1F7F-6C57-4135-9C80-2947256E73AB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>285</integer>
 			<key>ypos</key>
-			<integer>1030</integer>
+			<integer>865</integer>
 		</dict>
 		<key>70890AC2-ACAA-432B-8A0C-D940027DD8C9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>205</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>110</integer>
 		</dict>
 		<key>737238EF-AFCC-43D3-A087-80FDE8BCAE50</key>
 		<dict>
 			<key>xpos</key>
-			<integer>955</integer>
+			<integer>980</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>765</integer>
 		</dict>
 		<key>75BC4038-771A-4194-B655-75CB4722E86A</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1030</integer>
+			<integer>1055</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>7C80F7AC-1408-4C03-8627-5CA0904D9253</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1250</integer>
+			<integer>1275</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>7F3DC3DA-AF5C-4973-A542-1D8813FE0D32</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>350</integer>
 			<key>ypos</key>
-			<integer>815</integer>
+			<integer>680</integer>
 		</dict>
 		<key>7F83014B-812A-457B-9DBB-FA56CC2F8EDE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>1030</integer>
+			<integer>865</integer>
 		</dict>
 		<key>808FF62C-FBD1-4D96-92F4-9D660A899A51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1840</integer>
+			<integer>1865</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>765</integer>
 		</dict>
 		<key>85DB4F11-AF27-459E-8D1A-982820923EE1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1390</integer>
+			<integer>1415</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>97671326-8FC7-4638-9AD8-37EE1F5B35FC</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1950</integer>
+			<integer>1960</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>265</integer>
 		</dict>
 		<key>99F41E36-7F5C-41AD-8220-0A5C955C3DE7</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>1540</integer>
+			<integer>1565</integer>
 			<key>ypos</key>
-			<integer>890</integer>
-		</dict>
-		<key>9E58A59B-D9AD-4847-8F90-7D3E54273362</key>
-		<dict>
-			<key>xpos</key>
-			<integer>530</integer>
-			<key>ypos</key>
-			<integer>390</integer>
+			<integer>735</integer>
 		</dict>
 		<key>A788A69B-39BF-44EA-BB2E-C37D184B0665</key>
 		<dict>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>745</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>AC6BCD9F-E6CA-4C4A-9E87-621B88DA8678</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1455</integer>
+			<integer>1470</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>265</integer>
 		</dict>
 		<key>AFF4720E-B980-42D2-88D7-3C8F5AE2BB15</key>
 		<dict>
 			<key>note</key>
 			<string>DateTime</string>
 			<key>xpos</key>
-			<integer>495</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>B12F6DB7-05E8-4DA6-8ECA-E77EB6B5FE43</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2100</integer>
+			<integer>2110</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>295</integer>
 		</dict>
 		<key>BBA75C58-EE9D-4A56-AB81-6B589EA6B13E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>815</integer>
+			<integer>680</integer>
+		</dict>
+		<key>D1AD1096-41AD-4668-BD57-C890F9DDAE65</key>
+		<dict>
+			<key>xpos</key>
+			<integer>755</integer>
+			<key>ypos</key>
+			<integer>450</integer>
 		</dict>
 		<key>D3D26BCE-9E67-4E1D-BDA5-3CF34C3155BD</key>
 		<dict>
 			<key>note</key>
-			<string>Translate Selected Text
-
-From Native Language</string>
+			<string>Translate selected text from native_lang to foreign_lang</string>
 			<key>xpos</key>
-			<integer>45</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>785</integer>
+			<integer>650</integer>
 		</dict>
 		<key>D3DB04C0-F3BF-481E-BAEE-AA58D7A8A67A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1685</integer>
+			<integer>1710</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>735</integer>
 		</dict>
 		<key>DFA97F43-A312-45FA-9206-762301F7CE72</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>815</integer>
+			<integer>680</integer>
 		</dict>
 		<key>E4D2CA9E-A247-4F1E-A561-1B408624D312</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>350</integer>
 			<key>ypos</key>
-			<integer>1030</integer>
+			<integer>865</integer>
 		</dict>
 		<key>F402F3A5-63BB-4F74-BD15-8123558EB3F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>535</integer>
+			<integer>760</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>265</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>deepl_api_key</key>
 		<string></string>
+		<key>deepl_api_url</key>
+		<string>free</string>
 		<key>engine</key>
 		<string>google</string>
+		<key>foreign_lang</key>
+		<string>en</string>
 		<key>log_file</key>
 		<string>~/translate2_log.yml</string>
 		<key>native_lang</key>
 		<string>ja</string>
-		<key>translate_lang</key>
-		<string>en</string>
 		<key>view</key>
 		<string>input_output</string>
 	</dict>
@@ -1731,7 +1756,7 @@ From Native Language</string>
 		<string>deepl_api_key</string>
 	</array>
 	<key>version</key>
-	<string>2.0.2</string>
+	<string>2.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nkmr-jp/alfred-quick-translate</string>
 </dict>
