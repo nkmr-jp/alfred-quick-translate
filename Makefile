@@ -1,2 +1,2 @@
 build:
-	zip -r quick-translate.alfredworkflow info.plist icon.png *.sh
+	cd src; zip -r ../quick-translate.alfredworkflow *

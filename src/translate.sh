@@ -9,11 +9,11 @@ input=$1
 trans=""
 lf=$'\\\x0A'
 
-if [[ "$lang" == "${native_lang}2${translate_lang}" ]]; then
+if [[ "$lang" == "${native_lang}2${foreign_lang}" ]]; then
   from=$native_lang
-  to=$translate_lang
+  to=$foreign_lang
 else
-  from=$translate_lang
+  from=$foreign_lang
   to=$native_lang
 fi
 
@@ -22,6 +22,11 @@ set_trans() {
     input=$(echo -n "$input" | sed 's/;/'"$lf"'/g')
     trans=$(trans "$from:$to" --engine "$engine" -b "$input")
   elif [[ $engine == "deepl" ]]; then
+    if [[ $deepl_api_url == "pro" ]]; then
+      api_url=https://api.deepl.com/v2/translate
+    else
+      api_url=https://api-free.deepl.com/v2/translate
+    fi
     local from_upper to_upper
     from_upper=$(echo "$from" | tr '[:lower:]' '[:upper:]')
     to_upper=$(echo "$to" | tr '[:lower:]' '[:upper:]')
@@ -31,7 +36,7 @@ set_trans() {
     IFS=';'
     set -- $input
     trans=$(
-      curl -s https://api.deepl.com/v2/translate \
+      curl -s "$api_url" \
         -d auth_key="$deepl_api_key" \
         -d "text=$1" \
         -d "text=$2" \
