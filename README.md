@@ -19,7 +19,7 @@
 
 
 # Alfred Quick Translate
-- Translations for [Alfred 4](https://www.alfredapp.com/) Workflow. (*Powerpack is required.)
+- Translations for [Alfred 5](https://www.alfredapp.com/) Workflow. (*Powerpack is required.)
 - This workflow uses [translate-shell](https://github.com/soimort/translate-shell).
 - Icon is [iconfinder](https://www.iconfinder.com/icons/1249992/google_media_network_search_social_icon#size=128).
 - You can choose a translation engine.
