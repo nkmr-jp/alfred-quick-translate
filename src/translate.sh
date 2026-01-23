@@ -37,8 +37,8 @@ set_trans() {
     set -- $input
     trans=$(
       curl -s "$api_url" \
-        -d auth_key="$deepl_api_key" \
-        -d "text=$1" \
+	-H "Authorization: DeepL-Auth-Key $deepl_api_key" \
+      	-d "text=$1" \
         -d "text=$2" \
         -d "text=$3" \
         -d "text=$4" \
